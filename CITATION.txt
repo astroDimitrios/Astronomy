@@ -1,0 +1,7 @@
+To reference these resources in general please cite:
+
+Dimitrios Theodorakis, Astronomy Resources, 2020, Url: https://github.com/DimitriosAstro/Astronomy
+
+Note many of the resources here are derived from other works with Open Source licenses.
+Please remember to include any citations or attributons for other authors.
+These attributions can be found at the start or end of every file.
