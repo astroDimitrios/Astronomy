@@ -16,18 +16,18 @@ It was designed to be useful for any course however I use it to teach the BTEC N
 
 :stars:
 
-If you want to contribute or support the creation and upkeep of these resources please contact me at dtheodorakisphoto(at)gmail.com
+If you want to contribute or support the creation and upkeep of these resources please contact me at **dtheodorakisphoto(at)gmail.com**
 
-Folders:
+**Folders:
 
-Code - Python code on different Astronomy topics
+**Code** - Python code on different Astronomy topics
 
-DesignAssets - Illustrator Files, Images, and PPT Template for all resources
+**DesignAssets** - Illustrator Files, Images, and PPT Template for all resources
 
-Powerpoints - Astronomy Powerpoints!
+**Powerpoints** - Astronomy Powerpoints!
 
-Practicals - Lab based practicals and observational astronomy
+**Practicals** - Lab based practicals and observational astronomy
 
-Supplements - Intro to these resources, coding, extra reading, practicals and observations
+**Supplements** - Intro to these resources, coding, extra reading, practicals and observations
 
 ![AstroWelcome](/DesignAssets/Images/BackgroundText1@0.5x.png)
