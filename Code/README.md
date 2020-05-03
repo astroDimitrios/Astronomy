@@ -15,6 +15,9 @@ Upload the **.ipynb** file using the Upload File button (little upwards arrow in
 
 Alternatively you could install JupyterLab on your local machine.
 
+**Exp** - Binder repository of my notebooks  
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/DimitriosAstro/Astronomy/master)
+
 The **.ipynb** files contain tasks for students. The **.py** files contain the solutions.
 
 AstPy Number | Description
