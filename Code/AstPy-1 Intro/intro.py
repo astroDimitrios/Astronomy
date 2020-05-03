@@ -1,5 +1,5 @@
 # © Dimitrios Theodorakis GNU General Public License v3.0 https://github.com/DimitriosAstro/Astronomy
-# A brief intro to python
+# A brief intro to python (there is a Jupyter Notebook version of this code)
 # Find more info at www.w3schools.com, www.python.org, www.learnpython.org
 # Numpy section adapted from work by Ridwan Barbhuiyan (https://github.com/rbarbhuiyan)
 
@@ -128,3 +128,34 @@ Task 2: Print just your third favourite food.
 Task 3: Create an array using arange of the numbers 1-4. Print the square of those numbers.
 Task 4: Create a new 2-D array of zeros with size (3,3). Set the diagonals to 1 and print the array.
 '''
+
+# Solutions
+
+print("\n") # newline command
+
+print("Task 1")
+food = ["loukomathes", "gyro", "opera cake"]
+print(food)
+
+print("Task 2")
+print(food[2])
+
+print("Task 3")
+newArray = np.arange(1,5)
+print(newArray)
+print(newArray**2)
+
+print("Task 4")
+newZeros = np.zeros((3,3))
+newZeros[0,0] = 1
+newZeros[1,1] = 1
+newZeros[2,2] = 1
+newZeros[2,0] = 1
+newZeros[0,2] = 1
+print(newZeros)
+
+print("Or")
+# or the easier way using the built in function fill_diagonal
+np.fill_diagonal(newZeros, 2) # fill the main diagonal
+np.fill_diagonal(np.fliplr(newZeros), 2) # fill the other diagonal
+print(newZeros)
