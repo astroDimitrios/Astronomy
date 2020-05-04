@@ -2,8 +2,8 @@
 
 This directory contains code on various Astronomy topics.
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/DimitriosAstro/Astronomy/master)  
 **Binder** repository of my notebooks  
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/DimitriosAstro/Astronomy/master)
 Binder will launch an interactive session with this repository allowing the user to interact with all notebooks.
 
 Each folder contains the following:
@@ -25,3 +25,4 @@ AstPy Number | Description
 ------------ | -------------
 1 | Intro to Python and Numpy
 2 | Challenge: Bouncing Balls
+3 | Stellar Fusion
