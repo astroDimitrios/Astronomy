@@ -13,11 +13,13 @@ Each folder contains the following:
 * Any **inputs** required to run the code
 * Any **products** from the code (ouput images etc.)
 
+**Alternate ways of running notebooks**
+
 The .ipynb files can be run my going to https://jupyter.org/try.  
 Click on **Try JupyterLab** and wait for it to load.  
 Upload the **.ipynb** file using the Upload File button (little upwards arrow in the top right).
 
-Alternatively you could install JupyterLab on your local machine.
+Or you could install JupyterLab on your local machine.
 
 The **.ipynb** files contain tasks for students. The **.py** files contain the solutions.
 
