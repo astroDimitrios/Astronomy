@@ -128,6 +128,8 @@ df["BINDING ENERGY (keV)"] = df["BINDING ENERGY (keV)"]/1000
 marks = plt.scatter(df["Z"], df["BINDING ENERGY (keV)"], marker='o', alpha=0.75, c=colors, cmap="viridis", zorder=2, s=sizes)
 lines = plt.plot(df["Z"], df["BINDING ENERGY (keV)"], color="k", alpha=0.5, zorder=1)
 
+ax.spines['top'].set_visible(False)
+ax.spines['right'].set_visible(False)
 ax.set_xlabel("Z")
 ax.set_ylabel("B/A (MeV/nucleon)")
 ax.xaxis.labelpad=10.0
@@ -274,12 +276,12 @@ ax2.set_xticks([5,10])
 ax2.set_yticks([bEDeuterium,0,Vb])
 ax2.set_yticklabels([r"$U_{0}$",0,r"$V_{b}$"])
 ax2.hlines(y=Vb, xmin=0, xmax=rn, color="grey", alpha=0.6, linestyles="--", linewidth=1)
-ax2.annotate(r"$R_{n}$", xy=(rn+.01,-0.01), xytext=(rn+1,-0.1), arrowprops=dict(arrowstyle="->", fc="grey", ec="grey", alpha=0.6))
+ax2.annotate(r"$r_{n}$", xy=(rn+.01,-0.01), xytext=(rn+1,-0.1), arrowprops=dict(arrowstyle="->", fc="grey", ec="grey", alpha=0.6))
 ax2.set_title("proton - proton Coulomb Barrier", pad=20)
-plotText = r"$R_{n}$ = "+"{:.2f}".format(rn)+r" fm"+"\n"+r"$V_{b}$ = "+"{:+.1f}".format(Vb)+r" MeV"+"\n"+r"$U_{0}$ = "+"{:+.1f}".format(bEDeuterium)+r" MeV"
+plotText = r"$r_{n}$ = "+"{:.2f}".format(rn)+r" fm"+"\n"+r"$V_{b}$ = "+"{:+.1f}".format(Vb)+r" MeV"+"\n"+r"$U_{0}$ = "+"{:+.1f}".format(bEDeuterium)+r" MeV"
 ax2.text(7.5,-.5, plotText, size=14, va="center", ha="center", multialignment="left", linespacing=2)
 
-# plt.show()
+plt.show()
 
 # In reality quantum tunneling allows the nuclei to 'tunnel' through the peak of the barrier.
 # This means they need a lower Energy to fuse.
