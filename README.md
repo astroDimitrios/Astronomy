@@ -1,6 +1,8 @@
 # Astronomy
 
-**Astronomy Resources and Code** BETA [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/DimitriosAstro/Astronomy/master) 
+**Astronomy Resources and Code** BETA  
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/DimitriosAstro/Astronomy/master) 
 
 :ringed_planet:
 
