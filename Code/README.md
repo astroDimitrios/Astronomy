@@ -23,8 +23,8 @@ Or you could install JupyterLab on your local machine.
 
 The **.ipynb** files contain tasks for students. The **.py** files contain the solutions.
 
-AstPy Number | Description
------------- | -------------
-1 | Intro to Python and Numpy
-2 | Challenge: Bouncing Balls
-3 | Stellar Fusion
+AstPy Number | Description     | Data Files  | Comments
+------------ | -------------   | ----------- | --------
+1 | Intro to Python and Numpy ||
+2 | Challenge: Bouncing Balls || Bit harder than intro - adds plotting + animation
+3 | Stellar Fusion | Nuclear masses and binding energies (csv) |  
