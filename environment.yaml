@@ -1,0 +1,14 @@
+name: astro-env
+channels:
+  - conda-forge
+dependencies:
+  - numpy
+  - matplotlib
+  - scipy
+  - pandas
+  - seaborn
+  - bokeh
+  - sunpy
+  - warnings
+  - glymur
+  - astropy
