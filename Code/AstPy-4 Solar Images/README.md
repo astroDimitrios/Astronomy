@@ -1,16 +1,15 @@
-# Stellar Fusion
+# Solar Images
 
-Intro to Nuclear Fusion in stars.
+Getting data from SDO and SOHO using the SunPy module.
 
-**fusionLOG.py** creates the log scale version of the binding energy plot shown below:
+**solarImages.py** creates all the images.
 
-![AstroWelcome](bindingEnergyLog.gif)
+The lasco data is separate because it's not in the standard FITS format.
 
-**fusion.py** creates the same plot with linear scales.
+Some images you can make with the code:
 
-**mass16.csv** was pre-processed from data by the Atomic Mass Data Center ([AMDC](http://amdc.impcas.ac.cn/filel.html)).
-**mass16Abundant.csv** is the same but with only the most abundant isotope of each element.
+![AstroWelcome](sunAIAstacked.png)
 
-The three pdfs contain further reading/are references that I used and link in the code and notebook.
+![AstroWelcome](sunHMI.png)
 
-![AstroWelcome](ppCoulombBarrier.png)
+![AstroWelcome](sunLASCOC3.png)
