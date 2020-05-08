@@ -27,4 +27,6 @@ AstPy Number | Description     | Data Files  | Comments
 ------------ | -------------   | ----------- | --------
 1 | Intro to Python and Numpy ||
 2 | Challenge: Bouncing Balls || Bit harder than intro - adds plotting + animation
-3 | Stellar Fusion | Nuclear masses and binding energies (csv) |  
+3 | Stellar Fusion | Nuclear masses and binding energies (csv) |  Binding energy anim
+4 | Solar Images | Various SDO HMI and AIA FITS | Getting SDO/SOHO Images
+5 | Solar Radiation | | Blackbody rad, Wien's law etc.
