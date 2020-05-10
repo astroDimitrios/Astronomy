@@ -14,3 +14,7 @@ dependencies:
   - ffmpeg
   - jupyterlab
   - notebook
+  - nose
+  - bqplot
+  - ipywidgets
+  - nbgrader
