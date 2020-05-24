@@ -39,3 +39,4 @@ AstPy Number | Description     | Data Files  | Comments
 3 | Stellar Fusion | Nuclear masses and binding energies (csv) |  Binding energy anim
 4 | Solar Images | Various SDO HMI and AIA FITS | Getting SDO/SOHO Images
 5 | Solar Radiation | | Blackbody rad, Wien's law etc.
+6 | Sunspots | SDO HMI Fits | Calculation of solar rotation period (interactive and automatic). Sunspot identification and sunspot tracking (automatic).
