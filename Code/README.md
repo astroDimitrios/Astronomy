@@ -35,8 +35,8 @@ At the moment I have limited use for nbgrader assignments so there most likely w
 AstPy Number | Description     | Data Files  | Comments
 ------------ | -------------   | ----------- | --------
 1 | Intro to Python and Numpy ||
-2 | Challenge: Bouncing Balls || Bit harder than intro - adds plotting + animation
-3 | Stellar Fusion | Nuclear masses and binding energies (csv) |  Binding energy anim
-4 | Solar Images | Various SDO HMI and AIA FITS | Getting SDO/SOHO Images
-5 | Solar Radiation | | Blackbody rad, Wien's law etc.
+2 | Challenge: Bouncing Balls || Bit harder than intro - adds plotting + animation.
+3 | Stellar Fusion | Nuclear masses and binding energies (csv) |  Binding energy anim and calcs including coulomb potential well.
+4 | Solar Images | Various SDO HMI and AIA FITS | Getting and potting SDO/SOHO Images.
+5 | Solar Radiation | | Blackbody rad, Wien's law etc. Effective temperature of planets.
 6 | Sunspots | SDO HMI Fits | Calculation of solar rotation period (interactive and automatic). Sunspot identification and sunspot tracking (automatic).
