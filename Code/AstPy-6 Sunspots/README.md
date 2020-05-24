@@ -9,7 +9,7 @@ Automatic identification and tracking of sunspots.
 **theorySunspots.ipynb** explores some of the theory/maths behind the sunspots motion. The non-interactive **theorySunspots.py** creates the figures prefixed with ***theory***.
 
 All the SDO HMI images are in the ***images*** directory.  
-The ***data*** directory contains data from **sunspotsAuto.py**.
+The ***data*** directory contains data from **sunspotsAuto.py**.  
 Figures (gifs, pngs etc) are stored in the ***figures*** directory.
 
 **sunspotsAuto.py** lets you automatically identify sunspots in an image using **stara.py** (from [Cadair](https://github.com/Cadair/sunspot_experiments/blob/master/stara.py)) and also create tracks/paths  of the sunspots over time and uses the tracks to calcualte the sideral rotation period at different latitudes.
