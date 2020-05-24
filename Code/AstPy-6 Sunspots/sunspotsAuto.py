@@ -413,7 +413,7 @@ rotation_rate = [diff_rot(dt, this_lat) / dt for this_lat in latitudesTheory]
 rotation_period = [360 * u.deg / this_rate for this_rate in rotation_rate]
 ax.plot([this_period.value for this_period in rotation_period], latitudesTheory, alpha=0.5)
 
-plt.savefig('autoTrackSunspots.png', dpi=200)
+plt.savefig('./figures/autoTrackSunspots.png', dpi=200)
 # plt.show()
 
 # References
