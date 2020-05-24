@@ -19,8 +19,6 @@ dependencies:
   - ipywidgets
   - nbgrader
   - plotly==4.7.1
-  - plotly-orca==1.2.1
-  - psutils
   - requests
   - nodejs
   - scikit-learn
