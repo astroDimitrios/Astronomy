@@ -1,5 +1,17 @@
 # Solar Images
 
+## AIM - To access image data on the sun and visualise it in different wavelengths
+
+**Predict**
+
+Have a think about these questions and make some predictions! Be sure to tell someone else what you predict.
+
+1) Do you think the sun looks the same in all wavelengths?  
+2) Are there parts of the sun we can only see in certain wavelengths?    
+3) How do astronomers deal with such a large amount of data?  
+
+**Intro**
+
 Getting data from SDO and SOHO using the SunPy module.
 
 **solarImages.py** creates all the images.

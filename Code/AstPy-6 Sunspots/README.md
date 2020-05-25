@@ -1,5 +1,21 @@
 # Sunspots
 
+## sunspots.ipynb
+## AIM - To measure the sun's rotation period using sunspots and visualise our results
+
+**Predict**
+
+Have a think about these questions and make some predictions! Be sure to tell someone else what you predict.
+
+1) How fast do you think the sun rotates?  
+2) Does it rotate at the same speed all over its surface?  
+3) How could we use sunpots in a series of images to calculate the sun's rotation period?
+
+## theorySunspots.ipynb
+## AIM - To visualise and describe the motion of a sunspot
+
+## Intro
+
 Identification of sunspots in SDO HMI continuum images.  
 Calculation of the sidereal and synodic rotation periods of the sun.  
 Automatic identification and tracking of sunspots.

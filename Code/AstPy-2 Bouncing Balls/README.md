@@ -1,6 +1,10 @@
 # Bouncing Balls
 
-Plotting and animations with matplotlib.
+## AIM - To implement a simple time driven model and visualise it
+
+**Intro**
+
+Plotting and animations with matplotlib. I suggest students do this activity in pairs.
 
 Challenge:
 
