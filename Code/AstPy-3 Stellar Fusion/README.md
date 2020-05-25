@@ -10,7 +10,7 @@ Have a think about these questions and make some predictions! Be sure to tell so
 2) Does fusing all atoms release energy?  
 3) How hot does the sun have to be for fusion to occur?
 
-**Intro**
+## Intro
 
 Intro to Nuclear Fusion in stars.
 
