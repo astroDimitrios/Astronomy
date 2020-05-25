@@ -10,7 +10,7 @@ Have a think about these questions and make some predictions! Be sure to tell so
 2) Are there parts of the sun we can only see in certain wavelengths?    
 3) How do astronomers deal with such a large amount of data?  
 
-**Intro**
+## Intro
 
 Getting data from SDO and SOHO using the SunPy module.
 
