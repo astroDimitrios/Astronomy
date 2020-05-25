@@ -2,7 +2,7 @@
 
 ## AIM - To introduce students to python and Numpy
 
-**Intro**
+## Intro
 
 Introduction to Python and Numpy. I suggest this is done in pairs.
 
