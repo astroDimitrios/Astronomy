@@ -9,7 +9,7 @@ Have a think about these questions and make some predictions! Be sure to tell so
 1) Do hotter objects emit more longer or shorter wavelengths?    
 2) What colour light does our sun emit the most of?  
 
-## Intro
+**Intro**
 
 Intro to blackbody radiation, Wien's Law, and Stephan-Boltzman's Law.
 
