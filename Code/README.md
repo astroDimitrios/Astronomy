@@ -16,6 +16,9 @@ The outputs (figures etc) were designed to be a starting point for my students t
 
 Finally some are best done in pairs like the introduction activities AstPy1 and AstPy2. Activities are designed to take at most an hour with some taking an hour and a half (AstPy4 and AstPy6 for instance).
 
+**NOTE** - Sometimes when I update a interactive notebook with corrections I forget about the normal .py version so it's not the most up to date.  
+When I make new commits the binder image is re-built so if it takes ages to load I'm sorry I forgot to rebuild the binder. (This takes a good 5-10 mins)
+
 **Inspiration taken from:**
 
 Adam LaMee - Scientific Computing Resources [https://adamlamee.github.io/CODINGinK12/](https://adamlamee.github.io/CODINGinK12/)    
