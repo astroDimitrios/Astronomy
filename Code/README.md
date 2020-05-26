@@ -1,5 +1,7 @@
 # Code
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/DimitriosAstro/Astronomy/master)  
+
 ## Intro
 
 This directory contains code on various Astronomy topics.
