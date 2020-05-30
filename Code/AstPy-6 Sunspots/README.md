@@ -18,7 +18,7 @@ Have a think about these questions and make some predictions! Be sure to tell so
 
 Identification of sunspots in SDO HMI continuum images.  
 Calculation of the sidereal and synodic rotation periods of the sun.  
-Automatic identification and tracking of sunspots.
+Automatic identification and tracking of sunspots using SunPy.
 
 **sunspots.ipynb** will let students calculate the rotation period of the sun using interactive SDO images.
 
