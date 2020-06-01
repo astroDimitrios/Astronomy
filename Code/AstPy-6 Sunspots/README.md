@@ -20,7 +20,7 @@ Identification of sunspots in SDO HMI continuum images.
 Calculation of the sidereal and synodic rotation periods of the sun.  
 Automatic identification and tracking of sunspots using SunPy.
 
-**sunspots.ipynb** will let students calculate the rotation period of the sun using interactive SDO images.
+**sunspots.ipynb** will let students calculate the rotation period of the sun using interactive SDO images. There is a prettier Plotly version of this notebook but it's much larger in filesize and takes longer to plot the SunPy maps.
 
 **theorySunspots.ipynb** explores some of the theory/maths behind the sunspots motion. The non-interactive **theorySunspots.py** creates the figures prefixed with ***theory***.
 
