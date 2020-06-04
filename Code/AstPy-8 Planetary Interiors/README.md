@@ -1,25 +1,25 @@
 # Planetary Interiors
 
-## lunar.ipynb
-## AIM - To compare our moon image to known data and work out some feature sizes
+## COMINGSOON.ipynb
+## AIM - COMING SOON
 
 **Predict**
 
 Have a think about these questions and make some predictions! Be sure to tell someone else what you predict.
 
-1) Do the near and far sides of the moon look the same?    
-2) What sort of surface features do you think you can find on the moon?    
-3) How do we measure the height of the moon's surface?
+1)      
+2)     
+3)   
 
 ## Intro
 
-Annotating your image of the moon based off known data.
-Calculating crater heights and depths by first calculating our telescope/camera setups resolution.
-Comparing your image to Lunar Reconnaissance Orbiter (LRO) and Lunar Orbiter Laser Altimeter (LOLA) data.
+COMING SOON
 
-**lunar.ipynb** is the main code to do the three things above.
+**structure_plots.py** makes all the plots in the ***figures*** directory (minus the geotherm figure).
 
-**catalan.py** creates the gif of the Catalan crater topography using LOLA data stored in ***RDR_272E273E_46p130529S45SPointPerRow_csv_table***. Images used to make the gif outputted by this python script are in the directory ***catalan***.
+**thermal.py** makes the figure of the Earth's thermal gradient (geotherm figure).
+
+# Data Files
 
 ## structure.csv
 
@@ -35,10 +35,11 @@ Data on the thickness of layers in the planets.
 ***depth_order*** - layer number with 0 for the core
 ***depth*** - height/depth of that layer (km)
 ***depth_from_core*** - the distance from the centre of the object to the top of the current layer (km)
-***reference*** - reference for the data
+***reference*** - reference for the data (Earth data not too sure on taken from hyperphysics mainly)
 
 Note Venus and the Gas Giants have no mechanical entries in the csv.
 Colours are chosen so the plots look nice.
+Earth radius is just aboe the actual radius if you google it but this is because the Earth isn't a perfect sphere and I used a value for continental crust in the csv not oceanic (which is ~10 km not 30 km).
 
 ## geotherm.csv
 
@@ -47,17 +48,34 @@ Data taken from - Professor Bob Downs, University of Arizona, https://www.geo.ar
 Used to construct/plot the Earth's geothermal gradient.
 ***r*** - depth (km)
 ***r* ***- distance from the center of the Earth (km)
-***P*** - pressure at r (GPa)
 ***T*** - temperature at r (K)
 
-Example output - annotated lunar image
-![AstroWelcome](mymoonAnnotated.png)
+I have altered the T profile from the original to be consistent with the D" layer depth (In the original file the core mantle boundary temp change occurred at too low a depth). The original data is in **geotherm_original.csv**.
 
-Example output - crater comparison
-![AstroWelcome](theophilusCraterComparison.png)
+## pressure.csv
 
-LROC/LOLA Digital Elevation Model made using GMT
-![AstroWelcome](Lunar_LROC_WAC_GLD100_ClrShade_79s79n_9216.jpg)
+Data taken from - Professor Bob Downs, University of Arizona, https://www.geo.arizona.edu/xtal/geos306/fall06-10.htm
 
-Gif of the catalan crater topography using LOLA data
-![AstroWelcome](catalan.gif)
+Used to construct the pressure gradient.
+***r*** - depth (km)
+***r* ***- distance from the center of the Earth (km)
+***P*** - pressure at r (GPa)
+
+# Outputs
+
+Do not make **structure_plots.py** create all the figures as once as it might overplot some axes and give a matplotlib depreciation warning.
+
+Interior Comparisons (Compositional Layers)
+![AstroWelcome](./figures/rocky_interiors_compositional_simpLegend.png)
+
+Compositional and Mechanical Layers Comparison
+![AstroWelcome](./figures/comp_vs_mech/earth_comp_vs_mech.png)
+
+Compositional Layers (right side is adjusted so all layers are visible)
+![AstroWelcome](./figures/compositional/earth_compositional_interior_both.png)
+
+Mechanical Layers (right side is adjusted so all layers are visible)
+![AstroWelcome](./figures/mechanical/earth_mechanical_interior_both.png)
+
+Geothermal Gradient of the Earth
+![AstroWelcome](./figures/geotherm.png)

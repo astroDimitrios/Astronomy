@@ -31,20 +31,20 @@ venus,#e6dfcf,compositional,n,crust,#e6dfcf,crust,2,20,6052,https://solarsystem.
 venus,#9cbfab,compositional,y,troposphere,#9cbfab,troposphere,3,62,6114,https://iopscience.iop.org/article/10.1088/0034-4885/66/10/R04/pdf
 venus,#527d7a,compositional,y,mesosphere,#527d7a,mesosphere,4,38,6152,https://iopscience.iop.org/article/10.1088/0034-4885/66/10/R04/pdf
 venus,#254853,compositional,y,ionosphere,#254853,ionosphere,5,162.5,6314.5,https://iopscience.iop.org/article/10.1088/0034-4885/66/10/R04/pdf
-earth,#542A3E,mechanical,n,inner core,#542a3e,inner core,0,1221,1221,http://hyperphysics.phy-astr.gsu.edu/hbase/Geophys/earthstruct.html
-earth,#a54657,mechanical,n,outer core,#a54657,outer core,1,2259,3480,https://www.ccsf.edu/Departments/History_of_Time_and_Life/content/EarthScale.htm
-earth,#D04D19,mechanical,n,mesosphere,#D04D19,mesosphere,2,2171,5651,http://hyperphysics.phy-astr.gsu.edu/hbase/Geophys/earthstruct.html
-earth,#F0A031,mechanical,n,athenosphere,#F0A031,athenosphere,3,620,6271,https://www.ccsf.edu/Departments/History_of_Time_and_Life/content/EarthScale.htm
-earth,#E5D352,mechanical,n,lithosphere,#E5D352,lithosphere,4,100,6371,http://hyperphysics.phy-astr.gsu.edu/hbase/Geophys/earthstruct.html
-earth,#353531,mechanical,n,crust,#e6dfcf,crust,5,30,6401,https://www.ccsf.edu/Departments/History_of_Time_and_Life/content/EarthScale.htm
-earth,#63adf2,mechanical,y,troposphere,#63adf2,troposphere,6,12,6413,https://www.ccsf.edu/Departments/History_of_Time_and_Life/content/EarthScale.htm
-earth,#a7cced,mechanical,y,stratosphere,#a7cced,stratosphere,7,38,6451,https://www.ccsf.edu/Departments/History_of_Time_and_Life/content/EarthScale.htm
-earth,#82a0bc,mechanical,y,mesosphere,#82a0bc,mesosphere,8,30,6481,https://www.ccsf.edu/Departments/History_of_Time_and_Life/content/EarthScale.htm
-earth,#545e75,mechanical,y,ionosphere,#545e75,ionosphere,9,400,6881,https://www.ccsf.edu/Departments/History_of_Time_and_Life/content/EarthScale.htm
-earth,#e07625,compositional,n,core,#e07625,core,0,3480,3480,https://www.e-education.psu.edu/marcellus/node/870
-earth,#cc3b3a,compositional,n,mantle,#cc3b3a,mantle,1,2891,6371,https://www.e-education.psu.edu/marcellus/node/870
-earth,#e6dfcf,compositional,n,crust,#e6dfcf,crust,2,30,6401,https://www.e-education.psu.edu/marcellus/node/870
-earth,#9cbfab,compositional,y,atmosphere,#9cbfab,atmosphere,3,480,6881,https://www.e-education.psu.edu/marcellus/node/870
+earth,#542A3E,mechanical,n,inner core,#542a3e,inner core,0,1200,1200,http://hyperphysics.phy-astr.gsu.edu/hbase/Geophys/earthstruct.html
+earth,#a54657,mechanical,n,outer core,#a54657,outer core,1,2250,3450,https://www.ccsf.edu/Departments/History_of_Time_and_Life/content/EarthScale.htm
+earth,#D04D19,mechanical,n,mesosphere,#D04D19,mesosphere,2,2200,5650,http://hyperphysics.phy-astr.gsu.edu/hbase/Geophys/earthstruct.html
+earth,#F0A031,mechanical,n,athenosphere,#F0A031,athenosphere,3,600,6250,https://www.ccsf.edu/Departments/History_of_Time_and_Life/content/EarthScale.htm
+earth,#E5D352,mechanical,n,lithosphere,#E5D352,lithosphere,4,100,6350,http://hyperphysics.phy-astr.gsu.edu/hbase/Geophys/earthstruct.html
+earth,#353531,mechanical,n,crust,#e6dfcf,crust,5,30,6380,https://www.ccsf.edu/Departments/History_of_Time_and_Life/content/EarthScale.htm
+earth,#63adf2,mechanical,y,troposphere,#63adf2,troposphere,6,12,6392,https://www.ccsf.edu/Departments/History_of_Time_and_Life/content/EarthScale.htm
+earth,#a7cced,mechanical,y,stratosphere,#a7cced,stratosphere,7,38,6430,https://www.ccsf.edu/Departments/History_of_Time_and_Life/content/EarthScale.htm
+earth,#82a0bc,mechanical,y,mesosphere,#82a0bc,mesosphere,8,30,6460,https://www.ccsf.edu/Departments/History_of_Time_and_Life/content/EarthScale.htm
+earth,#545e75,mechanical,y,ionosphere,#545e75,ionosphere,9,400,6860,https://www.ccsf.edu/Departments/History_of_Time_and_Life/content/EarthScale.htm
+earth,#e07625,compositional,n,core,#e07625,core,0,3450,3450,https://www.e-education.psu.edu/marcellus/node/870
+earth,#cc3b3a,compositional,n,mantle,#cc3b3a,mantle,1,2900,6350,https://www.e-education.psu.edu/marcellus/node/870
+earth,#e6dfcf,compositional,n,crust,#e6dfcf,crust,2,30,6380,https://www.e-education.psu.edu/marcellus/node/870
+earth,#9cbfab,compositional,y,atmosphere,#9cbfab,atmosphere,3,480,6860,https://www.e-education.psu.edu/marcellus/node/870
 jupiter,#272635,compositional,NA,core,#272635,core,0,25500,25500,https://www.astronomynotes.com/solarsys/s8.htm
 jupiter,#7C98B3,compositional,NA,metallic hydrogen,#7C98B3,metallic hydrogen,1,38000,63500,https://www.astronomynotes.com/solarsys/s8.htm
 jupiter,#BFEDEF,compositional,NA,liquid hydrogen,#BFEDEF,liquid hydrogen,2,20000,83500,https://www.astronomynotes.com/solarsys/s8.htm

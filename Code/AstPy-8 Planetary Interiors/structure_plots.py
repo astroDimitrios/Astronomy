@@ -364,6 +364,7 @@ def compare_four(name, layer_type='compositional'):
         lgd = fig.legend(leg_patches, leg_labels, loc='upper center', bbox_to_anchor=(0.53, 0.3), ncol=4, frameon=False, handlelength=1, handleheight=1)
     else:
         lgd = fig.legend(leg_patches, leg_labels, loc='upper center', bbox_to_anchor=(0.525, 0.35), ncol=2, frameon=False, handlelength=1, handleheight=1)
+    plt.setp(lgd.get_texts(), color='grey')
     fig.subplots_adjust(wspace=0.01, hspace=0.02)
     fig.set_size_inches(6,6)
     if name == 'rocky':
@@ -470,7 +471,7 @@ def comp_vs_mechan(planet_name):
     fig.subplots_adjust(wspace=0.02, hspace=0)
     fig.savefig('./figures/comp_vs_mech/'+planet_name+'_comp_vs_mech.png', dpi=200, bbox_inches='tight')
 
-# comp_vs_mechan('earth')
+comp_vs_mechan('earth')
 # comp_vs_mechan('mars')
 # comp_vs_mechan('moon')
 # comp_vs_mechan('mercury')
