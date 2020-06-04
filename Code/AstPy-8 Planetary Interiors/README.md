@@ -25,17 +25,17 @@ COMING SOON
 
 Adapted from - Eleanor Lutz, Tabletop Whale, https://github.com/eleanorlutz/topography_atlas_of_space
 
-Data on the thickness of layers in the planets.
-***object*** - name of object
-***color*** - hex colour (for plotting)
-***layer_type*** - ```'compositional'``` or ```'mechanical'``` (NA for Gas Giants)
-***atm*** - ```'y'``` or ```'n'``` is the layer an atmospheric layer
-***name*** - name of layer
-***color_simp and name_simp*** - simplified names and colours for multiplanet plotting (leads to less legend entries)
-***depth_order*** - layer number with 0 for the core
-***depth*** - height/depth of that layer (km)
-***depth_from_core*** - the distance from the centre of the object to the top of the current layer (km)
-***reference*** - reference for the data (Earth data not too sure on taken from hyperphysics mainly)
+Data on the thickness of layers in the planets.  
+***object*** - name of object  
+***color*** - hex colour (for plotting)  
+***layer_type*** - ```'compositional'``` or ```'mechanical'``` (NA for Gas Giants)  
+***atm*** - ```'y'``` or ```'n'``` is the layer an atmospheric layer  
+***name*** - name of layer  
+***color_simp and name_simp*** - simplified names and colours for multiplanet plotting (leads to less legend entries)  
+***depth_order*** - layer number with 0 for the core  
+***depth*** - height/depth of that layer (km)  
+***depth_from_core*** - the distance from the centre of the object to the top of the current layer (km)  
+***reference*** - reference for the data (Earth data not too sure on taken from hyperphysics mainly)  
 
 Note Venus and the Gas Giants have no mechanical entries in the csv.
 Colours are chosen so the plots look nice.
@@ -45,10 +45,10 @@ Earth radius is just aboe the actual radius if you google it but this is because
 
 Data taken from - Professor Bob Downs, University of Arizona, https://www.geo.arizona.edu/xtal/geos306/fall06-10.htm
 
-Used to construct/plot the Earth's geothermal gradient.
-***r*** - depth (km)
-***r* ***- distance from the center of the Earth (km)
-***T*** - temperature at r (K)
+Used to construct/plot the Earth's geothermal gradient.  
+***r*** - depth (km)  
+***r* ***- distance from the center of the Earth (km)  
+***T*** - temperature at r (K)  
 
 I have altered the T profile from the original to be consistent with the D" layer depth (In the original file the core mantle boundary temp change occurred at too low a depth). The original data is in **geotherm_original.csv**.
 
@@ -56,10 +56,10 @@ I have altered the T profile from the original to be consistent with the D" laye
 
 Data taken from - Professor Bob Downs, University of Arizona, https://www.geo.arizona.edu/xtal/geos306/fall06-10.htm
 
-Used to construct the pressure gradient.
-***r*** - depth (km)
-***r* ***- distance from the center of the Earth (km)
-***P*** - pressure at r (GPa)
+Used to construct the pressure gradient.  
+***r*** - depth (km)  
+***r* ***- distance from the center of the Earth (km)  
+***P*** - pressure at r (GPa)  
 
 # Outputs
 
