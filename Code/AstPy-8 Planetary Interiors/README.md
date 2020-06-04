@@ -47,7 +47,7 @@ Data taken from - Professor Bob Downs, University of Arizona, https://www.geo.ar
 
 Used to construct/plot the Earth's geothermal gradient.  
 ***r*** - depth (km)  
-*** r* ***- distance from the center of the Earth (km)  
+***r\****- distance from the center of the Earth (km)  
 ***T*** - temperature at r (K)  
 
 I have altered the T profile from the original to be consistent with the D" layer depth (In the original file the core mantle boundary temp change occurred at too low a depth). The original data is in **geotherm_original.csv**.
@@ -58,7 +58,7 @@ Data taken from - Professor Bob Downs, University of Arizona, https://www.geo.ar
 
 Used to construct the pressure gradient.  
 ***r*** - depth (km)  
-*** r* ***- distance from the center of the Earth (km)  
+***r\****- distance from the center of the Earth (km)  
 ***P*** - pressure at r (GPa)  
 
 # Outputs
