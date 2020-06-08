@@ -1,6 +1,6 @@
 # Earth's Heat
 
-## COMINGSOON.ipynb
+## thermal.ipynb
 ## AIM - Explore the Earth's thermal gradient, describe how heat is transferred and where it's from, perform simple thermal calculations
 
 **Predict**
@@ -58,4 +58,4 @@ See ***AstPy-9 Planetary Interiors*** for more information or the ***Data*** dir
 # Outputs
 
 Geothermal Gradient of the Earth
-![AstroWelcome](./figures/geotherm.png)
+![AstroWelcome](./geotherm.png)
