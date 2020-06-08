@@ -1,0 +1,19 @@
+structure.csv
+
+Adapted from - Eleanor Lutz, Tabletop Whale, https://github.com/eleanorlutz/topography_atlas_of_space
+
+Data on the thickness of layers in the planets.  
+object - name of object  
+color - hex colour (for plotting)  
+layer_type- 'compositional' or 'mechanical' (NA for Gas Giants)  
+atm - 'y' or 'n' is the layer an atmospheric layer  
+name - name of layer  
+color_simp and name_simp - simplified names and colours for multiplanet plotting (leads to less legend entries)  
+depth_order - layer number with 0 for the core  
+depth - height/depth of that layer (km)  
+depth_from_core - the distance from the centre of the object to the top of the current layer (km)  
+reference - reference for the data (Earth data not too sure on taken from hyperphysics mainly)  
+
+Note Venus and the Gas Giants have no mechanical entries in the csv.
+Colours are chosen so the plots look nice.
+Earth radius is just aboe the actual radius if you google it but this is because the Earth isn't a perfect sphere and I used a value for continental crust in the csv not oceanic (which is ~10 km not 30 km).
