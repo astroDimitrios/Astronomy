@@ -16,7 +16,7 @@ It was designed to be useful for any course however I use it to teach the BTEC N
 
 :stars:
 
-If you want to contribute or support the creation and upkeep of these resources please contact me at **dtheodorakisphoto(at)gmail.com**
+If you want to contribute or support the creation and upkeep of these resources please contact me at **astrodimitrios(at)gmail.com**
 
 **Folders:**
 
