@@ -1,6 +1,6 @@
 # Planetary Atmospheres
 
-## atmosphere.ipynb
+## atmospheres.ipynb
 ## AIM - Visualise the atmospheric composition of planets
 
 **Predict**
@@ -60,12 +60,12 @@ From A. Garcia Munoz et al - Upper Atmospheres and Ionospheres of Planets and Sa
 
 Contains data on the exobase (bottom layer of the exosphere) for the planets and Titan.
 
-***object*** - name of the object
-***exobase alt*** - altitude in the atmosphere of the exobase (km)
-***exobase alt range*** - if the value in the paper was given as a range ***exobase alt*** is the center value and this column contains the range either side of possible values (similar to a +- error but I hesitate to call it that) in km
-***exobase temp high*** - max temp of the exobase in K (daytime)
-***exobase temp low*** - min temp of the exobase in K (nightime) - sometimes this is the same as the high value
-***esc vel*** - the escape velocity of the planet in km/s
+***object*** - name of the object  
+***exobase alt*** - altitude in the atmosphere of the exobase (km)  
+***exobase alt range*** - if the value in the paper was given as a range ***exobase alt*** is the center value and this column contains the range either side of possible values (similar to a +- error but I hesitate to call it that) in km  
+***exobase temp high*** - max temp of the exobase in K (daytime)  
+***exobase temp low*** - min temp of the exobase in K (nightime) - sometimes this is the same as the high value  
+***esc vel*** - the escape velocity of the planet in km/s  
 
 Note the temperatures for Mercury are average surface temperatures since it has no appreciable atmosphere.
 
