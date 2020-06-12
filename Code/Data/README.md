@@ -19,6 +19,17 @@ Lunar Orbiter Laser Altimeter (LOLA) digital elevation model of the moon details
 Atomic data (mass, binding energy etc of isotopes) from the Atomic Mass Data Center ([AMDC](http://amdc.impcas.ac.cn/filel.html)).
 **mass16Abundant.csv** is the same but with only the most abundant isotope of each element.
 
+## atmospheres.csv
+
+Data from Rauf KM et al. (2015) Comparing the Atmospheric Compositions of All Planets and Giant Moons in Solar System [https://www.longdom.org/open-access/comparing-the-atmospheric-compositions-of-all-planets-and-giant-moons-in-solar-system-2332-2519-1000136.pdf](https://www.longdom.org/open-access/comparing-the-atmospheric-compositions-of-all-planets-and-giant-moons-in-solar-system-2332-2519-1000136.pdf) 
+
+Contains percentage compositions for different gases in the atmospheres of the planets + Pluto.
+
+## earth_chem_crust.csv
+
+Chemical composition of the crust.
+Taken from: CRC Handbook of Chemistry and Physics, 97th Edition (2016-2017)
+
 ## earth_chem_interior.csv
 
 The chemical compostion of the Earth.
@@ -36,20 +47,30 @@ Don L. Anderson (1998) Theory of the Earth, Chapter 8, [https://authors.library.
 Claude J. Allegre et al (1995) The chemical composition of the Earth, [https://www.researchgate.net/publication/222035431_The_Chemical-Composition_of_the_Earth](https://www.researchgate.net/publication/222035431_The_Chemical-Composition_of_the_Earth)  
 Frederick K. Lutgens and Edward J. Tarbuck (2000) Essentials of Geology 7th Edition
 
-## earth_chem_crust.csv
+## exobase.csv
 
-Chemical composition of the crust.
-Taken from: CRC Handbook of Chemistry and Physics, 97th Edition (2016-2017)
+From A. Garcia Munoz et al - Upper Atmospheres and Ionospheres of Planets and Satellites [https://arxiv.org/ftp/arxiv/papers/1712/1712.02994.pdf](https://arxiv.org/ftp/arxiv/papers/1712/1712.02994.pdf)
 
-## exoplanets_microlensing.csv
+Contains data on the exobase (bottom layer of the exosphere) for the planets and Titan.
 
-NASA exoplanet archive data. Exoplanets discovered using microlensing.
-[https://exoplanetarchive.ipac.caltech.edu/docs/API_microlensing.html](https://exoplanetarchive.ipac.caltech.edu/docs/API_microlensing.html)
+***object*** - name of the object
+***exobase alt*** - altitude in the atmosphere of the exobase (km)
+***exobase alt range*** - if the value in the paper was given as a range ***exobase alt*** is the center value and this column contains the range either side of possible values (similar to a +- error but I hesitate to call it that) in km
+***exobase temp high*** - max temp of the exobase in K (daytime)
+***exobase temp low*** - min temp of the exobase in K (nightime) - sometimes this is the same as the high value
+***esc vel*** - the escape velocity of the planet in km/s
+
+Note the temperatures for Mercury are average surface temperatures since it has no appreciable atmosphere.
 
 ## exoplanets.csv
 
 NASA exoplanet archive data.
 [https://exoplanetarchive.ipac.caltech.edu/docs/API_exoplanet_columns.html](https://exoplanetarchive.ipac.caltech.edu/docs/API_exoplanet_columns.html)
+
+## exoplanets_microlensing.csv
+
+NASA exoplanet archive data. Exoplanets discovered using microlensing.
+[https://exoplanetarchive.ipac.caltech.edu/docs/API_microlensing.html](https://exoplanetarchive.ipac.caltech.edu/docs/API_microlensing.html)
 
 ## geotherm.csv
 

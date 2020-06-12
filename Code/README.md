@@ -81,8 +81,8 @@ AstPy Number | Description     | Data Files  | Comments
 5 | Solar Radiation | | Blackbody rad, Wien's law etc. Effective temperature of planets.
 6 | Sunspots | SDO HMI Fits | Calculation of solar rotation period (interactive and automatic). Sunspot identification and sunspot tracking (automatic).
 7 | Lunar Surface | LOLA DEM, LOLA Raw Topographic Data for Catalan Crater | Annotating your image of the moon from a telescope. Calculating resolution, crater heights and diameters. Comparing to Lunar Reconnaissance Orbiter (LRO) and Lunar Orbiter Laser Altimeter (LOLA) data.
-8 | Planets | Orbital data, density, radius, mass etc. | COMING SOON
+8 | Planets | Orbital data, density, radius, mass etc. | Comparing planets by looking at data from the NASA Planetary Factsheet such as mass and radius etc. Looking briefly at exoplanet detection and observational bias.
 9 | Planetary Interiors | Structure of the planets csv and chemcial composition of the Earth csvs | Visualising the interiors of planets, visualise the chemical composition of the Earth's interior.
-10 | Planetary Atmospheres |   | COMING SOON
+10 | Planetary Atmospheres | Chemical composition of planetary atmospheres. Exobase altitudes and temperatures (with escape velocities).  | Visualising and comparing the chemical composition of planetary atmospheres. Calculating whether a planet can hold onto a gas using escape velocities and kinetic theory.
 11 | Earth's Heat| Geothermal gradient data and pressure data.  | Visualise the thermal gradient of the Earth. Model the geotherm of the lithosphere. Calculate energy transfer via conduction and latent heat.
 12 | Earth's Atmosphere |   | COMING SOON

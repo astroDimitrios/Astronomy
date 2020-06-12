@@ -1,80 +1,75 @@
-# Planetary Interiors
+# Planetary Atmospheres
 
-## interior.ipynb
-## AIM - Visualise the interiors of planets, know how scientists build a picture of planetary interiors, explore the chemical composition of Earth
+## atmosphere.ipynb
+## AIM - Visualise the atmospheric composition of planets
 
 **Predict**
 
 Have a think about these questions and make some predictions! Be sure to tell someone else what you predict.
 
-1) How do we know what the interiors of planets look like?  
-2) Are all planets interiors the same? Can you compare the rocky and gas giant planets?    
-2) What layers does the moon have? Is it similr to any of the planets? 
+1) How do we know what the atmospheres of other planets contain?    
+2) Do all the rocky planets have similar atmospheres?     
+3) Do all planets have atmospheres?  
 
 ## Intro
 
-Creating figures of compositional and mechanical layers for all the planets and the moon.  
-Comparing the interiors of the planets.  
-Comparing the abundance of elements in the Earth's layers.
+Creating figures of the composition of planetary atmospheres.  
+Comparing the compositions of planetary atmospheres.  
+Calculating whether certain gases are retained by the planet or whether they escape into space.
 
-**structure_plots.py** makes all the plots in the ***figures*** directory (minus the chemical abundace figures).  
-**int_chem.py** creates the chemical abundace plots shown at the end of this readme.
+**atmospheres.py** makes all the stacked bar chart compositional plots for the planets.  
+**chemical_dist.py** makes the plots of the abundance of one gas in the atmospheres of all planets.  
+**exobase.py** makes the plot of escape velocity vs temperature.
 
 ## Challenges
 
-1) Re-create any of the images above (my code can be found in **structure_plots.py** if you need help).  
-2) Find data for the Galilean Moons and make similar interior plots for them.  
-3) Make a plot that shows the difference between oceanic and continental crust clearly.  
-4) Plot some chemical data for the moon and other rocky planets using Chapter 8 of Planetary Science: A Lunar perspective [here](https://www.lpi.usra.edu/publications/books/planetary_science/chapter8.pdf)
+1) Tidy up your plots to make them more readable.  
+2) Find data for the Galilean moons and perhaps also Titan (Saturn's moon). What are their atmospheres made of?  
+3) Calculate the lightest gas particle which can remain in Mercurys atmosphere.
 
 ## References
 
-Ken Rubin - How do scientists know what's in the core of the Earth? [https://www.soest.hawaii.edu/GG/ASK/earths_core.html](https://www.soest.hawaii.edu/GG/ASK/earths_core.html)  
-Eleanor Lutz- Topographic Maps of the Planets and Moons, [https://github.com/eleanorlutz/topography_atlas_of_space](https://github.com/eleanorlutz/topography_atlas_of_space)  
-Katharina Lodders - Composition of planets and properties of protoplanetary disks (2009), [https://www.tat.physik.uni-tuebingen.de/~fgp/Conf09/Contributions/talk_Lodders_Tuebingen09.pdf](https://www.tat.physik.uni-tuebingen.de/~fgp/Conf09/Contributions/talk_Lodders_Tuebingen09.pdf)
+Data from:  
+Rauf KM et al. (2015) Comparing the Atmospheric Compositions of All Planets and Giant Moons in Solar System [https://www.longdom.org/open-access/comparing-the-atmospheric-compositions-of-all-planets-and-giant-moons-in-solar-system-2332-2519-1000136.pdf](https://www.longdom.org/open-access/comparing-the-atmospheric-compositions-of-all-planets-and-giant-moons-in-solar-system-2332-2519-1000136.pdf)  
 
-## Acknowledgements
+Exobase data from:  
+A. Garcia Munoz et al - Upper Atmospheres and Ionospheres of Planets and Satellites [https://arxiv.org/ftp/arxiv/papers/1712/1712.02994.pdf](https://arxiv.org/ftp/arxiv/papers/1712/1712.02994.pdf)
 
-Thanks to Cameron Davidson for his help identifying the difference between compositional and mechanical layers and sending over helpful figures [https://apps.carleton.edu/profiles/cdavidso/](https://apps.carleton.edu/profiles/cdavidso/).
+Galileo Probe:  
+Alvin Seiff et al. (1998) Thermal structure of Jupiter's atmosphere near the edge of a 5‐μm hot spot in the north equatorial belt [https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/98JE01766](https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/98JE01766)
+
+Further Reading:  
+The Composition of the Atmosphere of Jupiter [https://lasp.colorado.edu/home/mop/files/2015/08/jupiter_ch4-1.pdf](https://lasp.colorado.edu/home/mop/files/2015/08/jupiter_ch4-1.pdf)  
+David A. Weintraub - Escape Velocity [https://www.vanderbilt.edu/AnS/physics/astrocourses/ast201/esc_vel_atmospheres.html](https://www.vanderbilt.edu/AnS/physics/astrocourses/ast201/esc_vel_atmospheres.html)  
+Peter Gallagher - Planetary Atmospheres [https://www.tcd.ie/Physics/people/Peter.Gallagher/lectures/PY4A03/pdfs/PY4A03_lecture12n13_amospheres.ppt.pdf](https://www.tcd.ie/Physics/people/Peter.Gallagher/lectures/PY4A03/pdfs/PY4A03_lecture12n13_amospheres.ppt.pdf)  
+A. J. Coates - Atmospheric escape [https://sci.esa.int/documents/33745/35957/1567258799920-Weihai-093-Coates-escape.pdf](https://sci.esa.int/documents/33745/35957/1567258799920-Weihai-093-Coates-escape.pdf)  
+Catling and Zahnle (2009) The escape of planetary atmospheres [https://geosci.uchicago.edu/~kite/doc/Catling2009.pdf](https://geosci.uchicago.edu/~kite/doc/Catling2009.pdf)  
+Nick Strobel (2020) Escape Velcoity [http://www.astronomynotes.com/solarsys/s3.htm](http://www.astronomynotes.com/solarsys/s3.htm)
 
 # Data Files
 
-## structure.csv
+## atmospheres.csv
 
-Adapted from - Eleanor Lutz, Tabletop Whale, https://github.com/eleanorlutz/topography_atlas_of_space
+Data from Rauf KM et al. (2015) Comparing the Atmospheric Compositions of All Planets and Giant Moons in Solar System [https://www.longdom.org/open-access/comparing-the-atmospheric-compositions-of-all-planets-and-giant-moons-in-solar-system-2332-2519-1000136.pdf](https://www.longdom.org/open-access/comparing-the-atmospheric-compositions-of-all-planets-and-giant-moons-in-solar-system-2332-2519-1000136.pdf) 
 
-Data on the thickness of layers in the planets.  
-***object*** - name of object  
-***color*** - hex colour (for plotting)  
-***layer_type*** - ```'compositional'``` or ```'mechanical'``` (NA for Gas Giants)  
-***atm*** - ```'y'``` or ```'n'``` is the layer an atmospheric layer  
-***name*** - name of layer  
-***color_simp and name_simp*** - simplified names and colours for multiplanet plotting (leads to less legend entries)  
-***depth_order*** - layer number with 0 for the core  
-***depth*** - height/depth of that layer (km)  
-***depth_from_core*** - the distance from the centre of the object to the top of the current layer (km)  
-***reference*** - reference for the data (Earth data not too sure on taken from hyperphysics mainly)  
+Contains percentage compositions for different gases in the atmospheres of the planets + Pluto.
 
-Note Venus and the Gas Giants have no mechanical entries in the csv.
-Colours are chosen so the plots look nice.
-Earth radius is just aboe the actual radius if you google it but this is because the Earth isn't a perfect sphere and I used a value for continental crust in the csv not oceanic (which is ~10 km not 30 km).
+## exobase.csv
 
-## earth_chem_interior.csv
+From A. Garcia Munoz et al - Upper Atmospheres and Ionospheres of Planets and Satellites [https://arxiv.org/ftp/arxiv/papers/1712/1712.02994.pdf](https://arxiv.org/ftp/arxiv/papers/1712/1712.02994.pdf)
 
-The chemical compostion of the Earth.
-Only some elements included. Some Oxygen data is missing. Values in %.
+Contains data on the exobase (bottom layer of the exosphere) for the planets and Titan.
 
-Rows for:  
-Bulk  
-Core  
-Lower Mantle  
-Upper Mantle  
-Crust
+***object*** - name of the object
+***exobase alt*** - altitude in the atmosphere of the exobase (km)
+***exobase alt range*** - if the value in the paper was given as a range ***exobase alt*** is the center value and this column contains the range either side of possible values (similar to a +- error but I hesitate to call it that) in km
+***exobase temp high*** - max temp of the exobase in K (daytime)
+***exobase temp low*** - min temp of the exobase in K (nightime) - sometimes this is the same as the high value
+***esc vel*** - the escape velocity of the planet in km/s
 
-Data taken from:  
-Don L. Anderson (1998) Theory of the Earth, Chapter 8, [https://authors.library.caltech.edu/25018/9/TOE08.pdf](https://authors.library.caltech.edu/25018/9/TOE08.pdf)  
-Claude J. Allegre et al (1995) The chemical composition of the Earth, [https://www.researchgate.net/publication/222035431_The_Chemical-Composition_of_the_Earth](https://www.researchgate.net/publication/222035431_The_Chemical-Composition_of_the_Earth)  
-Frederick K. Lutgens and Edward J. Tarbuck (2000) Essentials of Geology 7th Edition
+Note the temperatures for Mercury are average surface temperatures since it has no appreciable atmosphere.
+
+For information on the **planets.csv** which is present here see the ***Data*** or ***AstPy-8 Planets*** directories.
 
 ## earth_chem_crust.csv
 
@@ -83,21 +78,11 @@ Taken from: CRC Handbook of Chemistry and Physics, 97th Edition (2016-2017)
 
 # Outputs
 
-Do not make **structure_plots.py** create all the figures as once as it might overplot some axes and give a matplotlib depreciation warning.
+Atmospheric composition of the Earth
+![AstroWelcome](./figures/Earths_Atm_comp.png)
 
-Interior Comparisons (Compositional Layers)
-![AstroWelcome](./figures/rocky_interiors_compositional_simpLegend.png)
+Percentage composition of water vapour in planetary atmospheres
+![AstroWelcome](./figures/chem_H2O_atm_planet_comp.png)
 
-Compositional and Mechanical Layers Comparison
-![AstroWelcome](./figures/comp_vs_mech/earth_comp_vs_mech.png)
-
-Compositional Layers (right side is adjusted so all layers are visible)
-![AstroWelcome](./figures/compositional/earth_compositional_interior_both.png)
-
-Mechanical Layers (right side is adjusted so all layers are visible)
-![AstroWelcome](./figures/mechanical/earth_mechanical_interior_both.png)
-
-Abundance of elements in the Earth's continental crust made using **int_comp.py**
-![AstroWelcome](./figures/elem_comp_crust_earth.png)
-
-Inspiration for this last figure was taken from this USGS fact sheet on Rare Earth Elements - [https://pubs.usgs.gov/fs/2002/fs087-02/](https://pubs.usgs.gov/fs/2002/fs087-02/)
+Escape velocity vs temperature
+![AstroWelcome](./figures/atm_retention.png)
