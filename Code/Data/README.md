@@ -76,6 +76,11 @@ NASA exoplanet archive data. Exoplanets discovered using microlensing.
 
 Geothermal and pressure gradient for the Earth. Taken from [here - https://www.geo.arizona.edu/xtal/geos306/fall06-10.htm](https://www.geo.arizona.edu/xtal/geos306/fall06-10.htm) and adapted. Original is in geotherm_original.csv.
 
+## int_std_atm.csv
+
+Data to construct the international standard atmosphere model.  
+Taken from the ISA wikipedia page [here](https://en.wikipedia.org/wiki/International_Standard_Atmosphere).
+
 ## planets.csv
 
 Planetary data (including our Moon, the Galilean moons, and Pluto/Charon) taken from NASA Planetary factsheet [here](https://nssdc.gsfc.nasa.gov/planetary/factsheet/) and [here - https://www.noao.edu/jagi/sepo/education/plansat/table.html](https://www.noao.edu/jagi/sepo/education/plansat/table.html).
