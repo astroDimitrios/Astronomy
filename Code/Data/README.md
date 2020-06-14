@@ -35,12 +35,7 @@ Taken from: CRC Handbook of Chemistry and Physics, 97th Edition (2016-2017)
 The chemical compostion of the Earth.
 Only some elements included. Some Oxygen data is missing. Values in %.
 
-Rows for:  
-Bulk  
-Core  
-Lower Mantle  
-Upper Mantle  
-Crust
+Rows for: Bulk, Core, Lower Mantle, Upper Mantle, and the Crust.
 
 Data taken from:  
 Don L. Anderson (1998) Theory of the Earth, Chapter 8, [https://authors.library.caltech.edu/25018/9/TOE08.pdf](https://authors.library.caltech.edu/25018/9/TOE08.pdf)  
@@ -51,15 +46,7 @@ Frederick K. Lutgens and Edward J. Tarbuck (2000) Essentials of Geology 7th Edit
 
 From A. Garcia Munoz et al - Upper Atmospheres and Ionospheres of Planets and Satellites [https://arxiv.org/ftp/arxiv/papers/1712/1712.02994.pdf](https://arxiv.org/ftp/arxiv/papers/1712/1712.02994.pdf)
 
-Contains data on the exobase (bottom layer of the exosphere) for the planets and Titan.
-
-***object*** - name of the object  
-***exobase alt*** - altitude in the atmosphere of the exobase (km)  
-***exobase alt range*** - if the value in the paper was given as a range ***exobase alt*** is the center value and this column contains the range either side of possible values (similar to a +- error but I hesitate to call it that) in km  
-***exobase temp high*** - max temp of the exobase in K (daytime)  
-***exobase temp low*** - min temp of the exobase in K (nightime) - sometimes this is the same as the high value  
-***esc vel*** - the escape velocity of the planet in km/s
-
+Contains data on the exobase (bottom layer of the exosphere) for the planets and Titan.  
 Note the temperatures for Mercury are average surface temperatures since it has no appreciable atmosphere.
 
 ## exoplanets.csv
