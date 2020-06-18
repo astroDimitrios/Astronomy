@@ -41,18 +41,18 @@ ax.set_axis_off()
 smapRot = smap.rotate(order=3)
 smapRot.plot(axes=ax, annotate=False)
 
-# # Animation of all images
-# fig2 = plt.figure(10)
-# mapsequence = sunpy.map.Map('./data/*.fits', sequence=True) 
-# def sunspot_anim(i):
-#     smap = sunpy.map.Map(mapsequence[i])
-#     smap = smap.resample((1024, 1024) * u.pix)
-#     smap = smap.rotate(order=3)
-#     ax2 = fig2.add_subplot(projection=smap)
-#     ax2.set_axis_off()
-#     smap.plot(axes=ax2, annotate=False)
-# anim = animation.FuncAnimation(fig2, sunspot_anim, frames=len(files), interval=500)
-# # anim.save('sunspots.gif', writer='imagemagick', fps=0.5)
+# Animation of all images
+fig2 = plt.figure(10)
+mapsequence = sunpy.map.Map('./images/*.fits', sequence=True) 
+def sunspot_anim(i):
+    smap = sunpy.map.Map(mapsequence[i])
+    smap = smap.resample((1024, 1024) * u.pix)
+    smap = smap.rotate(order=3)
+    ax2 = fig2.add_subplot(projection=smap)
+    ax2.set_axis_off()
+    smap.plot(axes=ax2, annotate=False)
+anim = animation.FuncAnimation(fig2, sunspot_anim, frames=len(files), interval=500)
+anim.save('sunspots_Video.mov', writer='imagemagick', fps=0.5, dpi=800)
 # plt.show()
 
 # Find where the sunspots are using stara.py
@@ -203,7 +203,7 @@ def id_sunspots(files, v=False):
             ax.scatter(spots2DRots[files[i]][:,1], spots2DRots[files[i]][:,0], s=10, color=colors[y_preds[files[i]]], alpha=0.01)
             ax.scatter(ids[files[i]][:,1], ids[files[i]][:,0], color='k', marker='*', s=10, alpha=0.5)
         anim = animation.FuncAnimation(fig, sunspot_anim, frames=num_files, interval=500)
-        anim.save(v, writer='imagemagick', fps=0.5)
+        anim.save('sunspotsTracked_Video.mov', writer='imagemagick', fps=0.5, dpi=800)
     printT('Function id_sunspots finished')
     return ids, noSunspots
 
@@ -311,7 +311,7 @@ def track_sunspots(files, files_noSunspots, sunspot_ids, toldx, toldy, link, lon
     print('FINAL number of Tracks = {}'.format(len(finalTracksCut)))
     return finalTracksCut
 
-sunspot_ids, files_noSunspots = id_sunspots(files, v=False)
+sunspot_ids, files_noSunspots = id_sunspots(files, v=True)
 
 # Save the data
 sunspot_ids_file = open('./data/sunspot_ids.pkl', 'wb')
@@ -382,11 +382,11 @@ residualsCut = np.asarray(residualsCut)
 print('\nFinal number of tracks plotted = {}'.format(len(periodsCut)))
 
 # Plot the latitude vs period
-fig = plt.figure(3)
+fig = plt.figure(4)
 ax = fig.add_subplot()
 # Color the points based on the residuals
 colors = residualsCut.flatten()/max(residualsCut)
-scatter = ax.scatter(periodsCut, latitudesCut, c=colors, cmap='viridis', alpha=0.75)
+scatter = ax.scatter(periodsCut, latitudesCut, c=colors, cmap='viridis', alpha=0.75, ec='None')
 ax.set_ylim(-90, 90)
 ax.set_xlim(23, 40)
 ax.xaxis.set_major_locator(ticker.MultipleLocator(5))
@@ -413,7 +413,7 @@ rotation_rate = [diff_rot(dt, this_lat) / dt for this_lat in latitudesTheory]
 rotation_period = [360 * u.deg / this_rate for this_rate in rotation_rate]
 ax.plot([this_period.value for this_period in rotation_period], latitudesTheory, alpha=0.5)
 
-plt.savefig('./figures/autoTrackSunspots.png', dpi=200)
+plt.savefig('./figures/autoTrackSunspots_Video.png', dpi=800)
 # plt.show()
 
 # References
