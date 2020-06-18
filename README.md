@@ -4,6 +4,14 @@
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/DimitriosAstro/Astronomy/master) 
 
+**NEW DOCS** - https://astrodimitrios.github.io/
+(updating - some links not working)
+
+YouTube Channel:
+
+My channel [astroDimitrios](https://www.youtube.com/channel/UCf8Sg-cgLNubyCM5Em8eDZg/featured) has videos of some activities and challenges as well as beginner intro videos:
+https://www.youtube.com/channel/UCf8Sg-cgLNubyCM5Em8eDZg/featured
+
 :ringed_planet:
 
 This repo is for my Astronomy PPTS, CODE, and Practicals (including observing).  
