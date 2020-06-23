@@ -19,6 +19,10 @@ Lunar Orbiter Laser Altimeter (LOLA) digital elevation model of the moon details
 Atomic data (mass, binding energy etc of isotopes) from the Atomic Mass Data Center ([AMDC](http://amdc.impcas.ac.cn/filel.html)).
 **mass16Abundant.csv** is the same but with only the most abundant isotope of each element.
 
+## Planetary
+
+This directory contains csvs on the ring structures of the gas giants and their satellites.
+
 ## atmospheres.csv
 
 Data from Rauf KM et al. (2015) Comparing the Atmospheric Compositions of All Planets and Giant Moons in Solar System [https://www.longdom.org/open-access/comparing-the-atmospheric-compositions-of-all-planets-and-giant-moons-in-solar-system-2332-2519-1000136.pdf](https://www.longdom.org/open-access/comparing-the-atmospheric-compositions-of-all-planets-and-giant-moons-in-solar-system-2332-2519-1000136.pdf) 

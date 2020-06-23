@@ -1,0 +1,36 @@
+﻿object,ring_name,ring_name_simp,min,max,width lower,width upper,od lower,od upper,df lower,df upper,notes
+saturn,D,D,66000,74000,8000,8000,0.001,0.001,50,100,
+saturn,C,C,74490,91983,17493,17493,0.1,0.1,0,3,
+saturn,B,B,91983,117516,25533,25533,1,5,0,3,
+saturn,Cassini Division,CD,117516,122053,4537,4537,0.05,0.15,0,3,
+saturn,A,A,122053,136774,14721,14721,0.5,0.5,0,3,
+saturn,F,F,140175,140225,50,50,0.1,0.5,98,100,
+saturn,G,G,166000,173000,7000,7000,0.000001,0.000001,99,100,
+saturn,E,E,180000,450000,270000,270000,0.00001,0.00001,100,100,
+jupiter,Halo,H,92000,122500,30500,30500,0.000001,0.000001,100,100,
+jupiter,Main,M,122500,129000,6500,6500,0.0000059,0.0000059,25,25,Bounded by Adrastea
+jupiter,Amalthea Gossamer Ring,AGR,129000,182000,53000,53000,0.0000001,0.0000001,100,100,Connected with Amalthea
+jupiter,Thebe Gossamer Ring,TGR,182000,226000,44000,97000,0.00000003,0.00000003,100,100,Connected with Thebe. There is an extension beyond the orbit of Thebe.
+uranus,ζcc,$\zeta_{cc}$,26840,34890,8000,8000,0.001,0.001,,,Inward extension of the ζc ring
+uranus,ζc,$\zeta_c$,34890,37850,3000,3000,0.01,0.01,,,Inward extension of the ζ ring
+uranus,1986U2R,1986U2R,37000,39500,2500,2500,0,0.01,,,Faint dusty ring
+uranus,ζ,$\zeta$,37850,41350,3500,3500,0.01,0.01,,,
+uranus,6,$6$,41837,,1.6,2.2,0.18,0.25,,,
+uranus,5,$5$,42234,,1.9,4.9,0.18,0.48,,,
+uranus,4,$4$,42570,,2.4,4.4,0.16,0.3,,,
+uranus,α,$\alpha$,44718,,4.8,10,0.3,0.7,,,
+uranus,β,$\beta$,45661,,6.1,11.4,0.2,0.35,,,
+uranus,η,$\eta$,47175,,1.9,2.7,0.16,0.25,,,
+uranus,ηc,$\eta_c$,47176,,40,40,0.2,0.2,,,Outward broad component of the η ring
+uranus,γ,$\gamma$,47627,,3.6,4.7,0.7,0.9,,,
+uranus,δc,$\theta_c$,48300,,10,12,0.3,0.3,,,Inward broad component of the δ ring
+uranus,δ,$\theta$,48300,,4.1,6.1,0.3,0.6,,,
+uranus,λ,$\lambda$,50023,,1,2,0.1,0.2,,,Faint dusty ring
+uranus,ε,$\epsilon$,51149,,19.7,96.4,0.5,2.5,,,Shepherded by Cordelia and Ophelia
+uranus,ν,$\nu$,66100,69900,3800,3800,0.000054,0.000054,,,"Between Portia and Rosalind, peak brightness at 67 300 km"
+uranus,μ,$\mu$,86000,103000,17000,17000,0.000085,0.000085,,,"At Mab, peak brightness at 97 700 km"
+neptune,Galle (N42),galle,40900,42900,2000,2000,0.0001,0.0001,40,70,Broad faint ring
+neptune,Le Verrier (N53),le verrier,53200,,113,113,0.0047,0.0077,40,70,Narrow ring
+neptune,Lassell,lassel,53200,57200,4000,4000,0.0001,0.0001,20,40,Lassell ring is a faint sheet of material stretching from Le Verrier to Arago
+neptune,Arago,arago,57200,,100,100,,,,,Width is upper bound
+neptune,Adams (N63),adams,62932,,15,50,0.008,0.014,20,40,Five bright arcs

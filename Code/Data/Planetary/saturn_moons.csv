@@ -1,0 +1,25 @@
+﻿Name,Semimajor Axis,Period,Eccentricity,Inclination,Mean Diameter,Mass,Associated Ring,Footnotes,Comments
+Pan,133584.00,0.575,0.00001,0.0001,28,495,"A ring, Encke gap","4,8,9",
+Daphnis,136504.00,0.594,0.00003,0.0036,7.6,7.7,"A ring, Keeler gap","3,10",
+Atlas,137666.00,0.602,0.0012,0.003,30.2,660,"A ring, Roche division","8,9",
+Prometheus,139378.00,0.613,0.0022,0.007,84.2,15900,"F ring, Roche division","8,9",Prometheus and Pandora interact to produce chaotic orbit changes.
+Pandora,141713.00,0.629,0.0042,0.05,81.4,13700,F ring,"8,9",Prometheus and Pandora interact to produce chaotic orbit changes.
+Epimetheus,151452.00,0.695,0.0097,0.352,116.2,52700,Janus/Epimetheus ring,"8,9",Janus and Epimetheus are ?coorbital? and undergo orbit changes at approximately 4 year intervals. Semi-major axis and period given are averages.
+Janus,151452.00,0.695,0.0068,0.164,178,190000,Janus/Epimetheus ring,"8,9",Janus and Epimetheus are ?coorbital? and undergo orbit changes at approximately 4 year intervals. Semi-major axis and period given are averages.
+Aegaeon,167494.00,0.808,0.00024,0.001,0.66,3.50E-08,G ring,7,Embedded in the G Ring.
+Mimas,185537.00,0.942,0.0196,1.565,396,3750000,"B ring, Cassini division, Huygens gap","5,8",
+Methone,194230.00,1.01,0.01,0.01,2.8,392,Methone ring,10,
+Anthe,197669.00,1.037,0.001,0.159,2,0.15,Anthe ring,"1,6",
+Pallene,212283.00,1.154,0.004,0.18,4.4,1150,Pallene ring,10,
+Enceladus,238037.00,1.37,0.0047,0.009,504,10800000,E ring,"5,8",
+Tethys,294672.00,1.888,0.0001,1.091,1066,61700000,,"5,8",
+Telesto,294675.00,1.888,0.0002,1.2,25,,,10,Leading coorbital of Tethys.
+Calypso,294675.00,1.888,0.0005,1.5,20,,,10,Trailing coorbital of Tethys.
+Dione,377400.00,2.737,0.0022,0.028,1123,110000000,,"5,8",
+Helene,377400.00,2.737,0.007,0.21,37,,,10,Leading coorbital of Dione.
+Polydeuces,377400.00,2.737,0.019,0.17,1.5,2.5,,10,Trailing coorbital of Dione.
+Rhea,527070.00,4.518,0.001,0.36,1529,231000000,,"5,8",
+Titan,1221865.00,15.95,0.0288,0.312,5151,13500000000,Titan ringlet,"5,8",
+Hyperion,1500934.00,21.28,0.0232,0.615,266,558000,,"5,8",
+Iapetus,3560851.00,79.33,0.0293,8.313,1471,181000000,,"5,8",
+Phoebe,12948000.00,548.02,0.1635,175.243,213,829000,Phoebe ring,"5,11",

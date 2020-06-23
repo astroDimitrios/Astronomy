@@ -1,0 +1,10 @@
+Data from: https://pds-rings.seti.org/neptune/neptune_tables.html
+
+Most masses are missing
+
+Semimajor axis in km
+Period in days
+Eccentricity unitless
+Inclination in deg
+Mean Diameter in km
+Mass in 10^20 kg

@@ -1,0 +1,3 @@
+saturn_rings data from https://pds-rings.seti.org/saturn/saturn_tables.html
+
+inner and outer boundaries in km
