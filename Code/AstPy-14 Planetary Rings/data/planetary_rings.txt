@@ -1,0 +1,24 @@
+Data taken from:
+
+Saturn:
+
+http://lasp.colorado.edu/~espoclass/ASTR_5835_Fall-2017-Review%20Chapters-Saturn/17-Origin%20and%20Evolution%20of%20Saturn%27s%20Ring%20System.pdf
+
+Jupiter:
+
+https://en.wikipedia.org/wiki/Rings_of_Jupiter
+
+Uranus:
+
+https://en.wikipedia.org/wiki/Rings_of_Uranus
+
+Neptune:
+
+https://en.wikipedia.org/wiki/Rings_of_Neptune
+
+min - inner radius km
+max - outer radius (where there is none this is the center radius) km
+od is optical depth
+df is dust fraction %
+
+ring_name_simp is so you don't have to type Greek letters
