@@ -1,0 +1,31 @@
+PDS_VERSION_ID                  = PDS3
+RECORD_TYPE                     = STREAM
+
+^TEXT                           = "COISS_2004_inventory.tab"
+
+VOLUME_ID                       = "COISS_2004"
+PRODUCT_CREATION_TIME           = 2019-06-08T07:00:00
+INSTRUMENT_HOST_NAME            = "CASSINI ORBITER"
+INSTRUMENT_HOST_ID              = CO
+INSTRUMENT_NAME                 = "IMAGING SCIENCE SUBSYSTEM"
+INSTRUMENT_ID                   = "ISS"
+
+OBJECT                          = TEXT
+  PUBLICATION_DATE              = 2019-06-08
+  NOTE                          = "Description of the contents of
+the Inventory table."
+END_OBJECT                      = TEXT
+END
+
+  DESCRIPTION OF THE INVENTORY TABLE
+  -----------------------------------------------------------------
+
+This table lists every target inside the instrument field of view. Each
+record in the table corresponds to a single data product. The fields in 
+each record are separated by commas. The fields are:
+
+  Volume ID,
+  File specification path to the data product label file,
+  Ring Observation ID,
+  Target (this field recurs as many times as necessary).
+

@@ -1,0 +1,22 @@
+OPUS ID,Product Category,Product Type,Product Type Abbrev,Version,File Path,Checksum,Size
+co-iss-n1467351539,Cassini ISS,Raw image,coiss_raw,Current,/volumes/COISS_2xxx/COISS_2004/data/1466584989_1467427246/N1467351539_2.IMG,66030bbe5510e49cc8e59c4b2a904afd,1077344
+co-iss-n1467351539,Cassini ISS,Raw image,coiss_raw,Current,/volumes/COISS_2xxx/COISS_2004/data/1466584989_1467427246/N1467351539_2.LBL,601d6c319a12b4a0864412c698226b9a,3637
+co-iss-n1467351539,Cassini ISS,Raw image,coiss_raw,Current,/volumes/COISS_2xxx/COISS_2004/label/prefix2.fmt,71241186a1ae7bc577f73ec53f940ffd,4753
+co-iss-n1467351539,Cassini ISS,Raw image,coiss_raw,Current,/volumes/COISS_2xxx/COISS_2004/label/tlmtab.fmt,dc65986efae07237c9575d9c70a9943c,18676
+co-iss-n1467351539,Cassini ISS,Calibrated image,coiss_calib,Current,/calibrated/COISS_2xxx/COISS_2004/data/1466584989_1467427246/N1467351539_2_CALIB.IMG,8bbe7100cf54c83467b73d066b2a26b1,4202496
+co-iss-n1467351539,Cassini ISS,Calibrated image,coiss_calib,Current,/calibrated/COISS_2xxx/COISS_2004/data/1466584989_1467427246/N1467351539_2_CALIB.LBL,579ddbec187a951751f4d39f859b8e19,3780
+co-iss-n1467351539,Cassini ISS,Extra preview (thumbnail),coiss_thumb,Current,/volumes/COISS_2xxx/COISS_2004/extras/thumbnail/1466584989_1467427246/N1467351539_2.IMG.jpeg_small,e0144937a5d1f1bcbc318aa92cbfef4d,844
+co-iss-n1467351539,Cassini ISS,Extra preview (medium),coiss_medium,Current,/volumes/COISS_2xxx/COISS_2004/extras/browse/1466584989_1467427246/N1467351539_2.IMG.jpeg,cc678e91ec50d9ccb48e326e0a324fa2,9117
+co-iss-n1467351539,Cassini ISS,Extra preview (full),coiss_full,Current,/volumes/COISS_2xxx/COISS_2004/extras/full/1466584989_1467427246/N1467351539_2.IMG.png,b822674daf3e6da08ab51f64ff7c2c23,613966
+co-iss-n1467351539,metadata,Target Body Inventory,inventory,Current,/metadata/COISS_2xxx/COISS_2004/COISS_2004_inventory.tab,ea80547dad20d8d678ab02bb5a32d61e,480800
+co-iss-n1467351539,metadata,Target Body Inventory,inventory,Current,/metadata/COISS_2xxx/COISS_2004/COISS_2004_inventory.lbl,b2cf1d0ac13de36b9edb612bb1273ec1,1140
+co-iss-n1467351539,metadata,Planet Geometry Index,planet_geometry,Current,/metadata/COISS_2xxx/COISS_2004/COISS_2004_saturn_summary.tab,61a2a64f266284ddd20bc57e3bbecdd7,1807900
+co-iss-n1467351539,metadata,Planet Geometry Index,planet_geometry,Current,/metadata/COISS_2xxx/COISS_2004/COISS_2004_saturn_summary.lbl,8c9735bd83cbefb56f5e57d0e3096b47,42522
+co-iss-n1467351539,metadata,Moon Geometry Index,moon_geometry,Current,/metadata/COISS_2xxx/COISS_2004/COISS_2004_moon_summary.tab,8a817c52a24e384698e5070ca8156204,3569340
+co-iss-n1467351539,metadata,Moon Geometry Index,moon_geometry,Current,/metadata/COISS_2xxx/COISS_2004/COISS_2004_moon_summary.lbl,325dfefae9e7239b31205245a87d91d8,42829
+co-iss-n1467351539,metadata,Ring Geometry Index,ring_geometry,Current,/metadata/COISS_2xxx/COISS_2004/COISS_2004_ring_summary.tab,b7fc0fc480f266c1cd870a0436524807,2944550
+co-iss-n1467351539,metadata,Ring Geometry Index,ring_geometry,Current,/metadata/COISS_2xxx/COISS_2004/COISS_2004_ring_summary.lbl,5d336bd188e0d7d7095e15a66d594f13,76348
+co-iss-n1467351539,browse,Browse Image (thumbnail),browse_thumb,Current,/previews/COISS_2xxx/COISS_2004/data/1466584989_1467427246/N1467351539_2_thumb.jpg,2be6987c2f9daea28a4455c6eb5028a0,1826
+co-iss-n1467351539,browse,Browse Image (small),browse_small,Current,/previews/COISS_2xxx/COISS_2004/data/1466584989_1467427246/N1467351539_2_small.jpg,a347d30cbfe53a76d950ea6816a97a04,8538
+co-iss-n1467351539,browse,Browse Image (medium),browse_medium,Current,/previews/COISS_2xxx/COISS_2004/data/1466584989_1467427246/N1467351539_2_med.jpg,a79d3f8da8b131aebc70e0b7fad8545e,32379
+co-iss-n1467351539,browse,Browse Image (full),browse_full,Current,/previews/COISS_2xxx/COISS_2004/data/1466584989_1467427246/N1467351539_2_full.png,e150bfb040561e04cc2a9d3b07177aab,448642
