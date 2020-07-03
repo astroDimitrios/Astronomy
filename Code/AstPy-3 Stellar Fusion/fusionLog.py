@@ -177,7 +177,7 @@ def animate(i):
     return marks, element, BEText
 
 anim = animation.FuncAnimation(fig, animate, frames=len(df), interval=1000)
-# anim.save('bindingEnergyLog.gif', writer='imagemagick', fps=2)
+# anim.save('bindingEnergyLog.mov', writer='imagemagick', fps=30)
 plt.show()
 plt.close(1)
 
@@ -283,6 +283,7 @@ plotText = r"$r_{n}$ = "+"{:.2f}".format(rn)+r" fm"+"\n"+r"$V_{b}$ = "+"{:+.1f}"
 ax2.text(7.5,-.5, plotText, size=14, va="center", ha="center", multialignment="left", linespacing=2)
 
 plt.show()
+# plt.savefig('ppCoulombBarrier_Video.png', dpi=300)
 
 # In reality quantum tunneling allows the nuclei to 'tunnel' through the peak of the barrier.
 # This means they need a lower Energy to fuse.
