@@ -82,9 +82,10 @@ AstPy Number | Description     | Data Files  | Comments
 6 | Sunspots | SDO HMI Fits | Calculation of solar rotation period (interactive and automatic). Sunspot identification and sunspot tracking (automatic).
 7 | Lunar Surface | LOLA DEM, LOLA Raw Topographic Data for Catalan Crater | Annotating your image of the moon from a telescope. Calculating resolution, crater heights and diameters. Comparing to Lunar Reconnaissance Orbiter (LRO) and Lunar Orbiter Laser Altimeter (LOLA) data.
 8 | Planets | Orbital data, density, radius, mass etc. | Comparing planets by looking at data from the NASA Planetary Factsheet such as mass and radius etc. Looking briefly at exoplanet detection and observational bias.
-9 | Planetary Interiors | Structure of the planets csv and chemcial composition of the Earth csvs | Visualising the interiors of planets, visualise the chemical composition of the Earth's interior.
+9 | Planetary Interiors | Structure of the planets csv and chemcial composition of the Earth csvs. | Visualising the interiors of planets, visualise the chemical composition of the Earth's interior.
 10 | Planetary Atmospheres | Chemical composition of planetary atmospheres. Exobase altitudes and temperatures (with escape velocities).  | Visualising and comparing the chemical composition of planetary atmospheres. Calculating whether a planet can hold onto a gas using escape velocities and kinetic theory.
 11 | Earth's Heat| Geothermal gradient data and pressure data.  | Visualise the thermal gradient of the Earth. Model the geotherm of the lithosphere. Calculate energy transfer via conduction and latent heat.
 12 | Earth's Atmosphere | Data to construct the international standard atmosphere (ISA) model. | Visualising the temperature, pressure, density, and speed of sound variation with altitude using the ISA model.
 13 | Martian Surface | | COMING SOON!
 14 | Planetary Rings | Data on the ring structure for all gas giants and data on their moons. | Visualising the ring structure of Saturn and the other gas giants. Calculating roche limits for some moons.
+15 | Ring Dynamics | Data on Saturns moons. | Visualising the Roche limit with an N-body simulation. Calculating the locations of mean-motion resonances. Looking at bending and density waves, and the effects of shepherd moons.
