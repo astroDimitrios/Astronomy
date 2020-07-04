@@ -24,3 +24,4 @@ dependencies:
   - scikit-learn
   - scikit-image
   - gmt
+  - rebound
