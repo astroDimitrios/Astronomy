@@ -25,3 +25,4 @@ dependencies:
   - scikit-image
   - gmt
   - rebound
+  - skyfield
