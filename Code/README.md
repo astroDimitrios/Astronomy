@@ -14,7 +14,9 @@ The goal of the coding activities is mainly to **process** and **visualise** dat
 
 The outputs (figures etc) were designed to be a starting point for my students to put their own data and visualisations in their reports and presentations. My hope is this will promote a deeper understanding of the topic and better engage the students/encourage ownership and pride in their work.  
 
-Finally some are best done in pairs like the introduction activities AstPy1 and AstPy2. Activities are designed to take at most an hour with some taking an hour and a half (AstPy4 and AstPy6 for instance).
+Some are best done in pairs like the introduction activities AstPy1 and AstPy2. Activities are designed to take at most an hour with some taking an hour and a half (AstPy4 and AstPy6 for instance).
+
+Folders starting with a ***C*** are the Astronomy and Python challenges that anyone can participate in. I will try and make them at least bi-monthly. Maybe less over the summer and new year. My solutions will be added to the folder after the end of the challenge.
 
 **NOTE** - Sometimes when I update a interactive notebook with corrections I forget about the normal .py version so it's not the most up to date.  
 When I make new commits the binder image is re-built so if it takes ages to load I'm sorry I forgot to rebuild the binder. (This takes a good 5-10 mins)
