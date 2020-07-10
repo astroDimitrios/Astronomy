@@ -98,3 +98,4 @@ Well my solution to it anyway.
 Challenge Number | Date | Description     | Data Files  | Comments
 ------------ | -----------| -------------   | ----------- | --------
 1 | 2020 June | Calculate the time between when a planet is at its closest to the Earth and when a planet is at its furthest from the Earth. || My solution is for Mars!
+2 | 2020 Summer | Create a program to track sunspots across the face of the Sun automatically. || Solution in September!
