@@ -89,3 +89,12 @@ AstPy Number | Description     | Data Files  | Comments
 13 | Martian Surface | | COMING SOON!
 14 | Planetary Rings | Data on the ring structure for all gas giants and data on their moons. | Visualising the ring structure of Saturn and the other gas giants. Calculating roche limits for some moons.
 15 | Ring Dynamics | Data on Saturns moons. | Visualising the Roche limit with an N-body simulation. Calculating the locations of mean-motion resonances. Looking at bending and density waves, and the effects of shepherd moons.
+
+# Challenges
+
+A folder with a C then a number (C1 for instance) is one of the astronomy and python challenges!
+Well my solution to it anyway.
+
+Challenge Number | Date | Description     | Data Files  | Comments
+------------ | -----------| -------------   | ----------- | --------
+1 | 2020 June | Calculate the time between when a planet is at its closest to the Earth and when a planet is at its furthest from the Earth. || My solution is for Mars!
