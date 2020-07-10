@@ -14,7 +14,7 @@ https://www.youtube.com/channel/UCf8Sg-cgLNubyCM5Em8eDZg/featured
 
 :ringed_planet:
 
-This repo is for my Astronomy PPTS, CODE, and Practicals (including observing).  
+This repo is for my Astronomy PPTS, CODE, and Practicals (including observing and astronomy club resources).  
 I suggest you start by looking at the documents in the **Supplements** Directory.  
 Those documents provide an overview of how to use these resources.
 
