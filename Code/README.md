@@ -1,6 +1,6 @@
 # Code
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/DimitriosAstro/Astronomy/master)  
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/DimitriosAstro/Astronomy/master?filepath=Code)  
 
 ## Intro
 
@@ -31,7 +31,7 @@ astronomycenter resources, [https://www.compadre.org/astronomy/index.cfm](https:
 
 ## How to run the code
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/DimitriosAstro/Astronomy/master)  
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/DimitriosAstro/Astronomy/master?filepath=Code)  
 **Binder repository of my notebooks**  
 Binder will launch an interactive session with this repository allowing the user to interact with all notebooks.
 
