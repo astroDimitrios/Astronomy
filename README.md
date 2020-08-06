@@ -2,7 +2,7 @@
 
 **Astronomy Resources and Code** BETA  
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/DimitriosAstro/Astronomy/master) 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/DimitriosAstro/Astronomy/master?filepath=Code) 
 
 **NEW DOCS** - https://astrodimitrios.github.io/
 (updating - some links not working)
