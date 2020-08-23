@@ -368,9 +368,9 @@ def compare_four(name, layer_type='compositional'):
     fig.subplots_adjust(wspace=0.01, hspace=0.02)
     fig.set_size_inches(6,6)
     if name == 'rocky':
-        fig.savefig('./figures/rocky_interiors_'+layer_type+'_simpLegend.png', dpi=200, bbox_extra_artists=(lgd,))
+        fig.savefig('./figures/rocky_interiors_'+layer_type+'_simpLegend.png', dpi=800, bbox_extra_artists=(lgd,))
     else:
-        fig.savefig('./figures/ice_giant_interiors_'+layer_type+'.png', dpi=200)
+        fig.savefig('./figures/ice_giant_interiors_'+layer_type+'.png', dpi=800)
 
 # compare_four('rocky', 'compositional')
 # compare_four('ice', 'compositional')
@@ -469,9 +469,9 @@ def comp_vs_mechan(planet_name):
     leg2 = ax2.legend(legpatch2, leglabel2, loc='upper center', bbox_to_anchor=(0.375, -0.17), ncol=2, frameon=False, handlelength=1, handleheight=1)
     plt.setp(leg2.get_texts(), color='grey')
     fig.subplots_adjust(wspace=0.02, hspace=0)
-    fig.savefig('./figures/comp_vs_mech/'+planet_name+'_comp_vs_mech.png', dpi=200, bbox_inches='tight')
+    fig.savefig('./figures/comp_vs_mech/'+planet_name+'_comp_vs_mech.png', dpi=800, bbox_inches='tight')
 
-comp_vs_mechan('earth')
+# comp_vs_mechan('earth')
 # comp_vs_mechan('mars')
 # comp_vs_mechan('moon')
-# comp_vs_mechan('mercury')
+comp_vs_mechan('mercury')
