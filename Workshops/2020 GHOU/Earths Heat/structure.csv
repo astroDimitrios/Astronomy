@@ -1,0 +1,62 @@
+﻿object,color,layer_type,atm,name,color_simp,name_simp,depth_order,depth,depth_from_center,reference
+moon,#5f2742,mechanical,n,inner core,#5f2742,inner core,0,240,240,https://solarsystem.nasa.gov/moons/earths-moon/in-depth/
+moon,#cb2855,mechanical,n,outer core,#cb2855,outer core,1,90,330,https://solarsystem.nasa.gov/moons/earths-moon/in-depth/
+moon,#e07625,mechanical,n,partial melt,#e07625,molten,2,150,480,https://solarsystem.nasa.gov/moons/earths-moon/in-depth/
+moon,#eabf80,mechanical,n,mantle,#eabf80,mantle,3,1176,1656,https://solarsystem.nasa.gov/moons/earths-moon/in-depth/
+moon,#e6dfcf,mechanical,n,crust,#e6dfcf,crust,4,81.5,1737.5,https://solarsystem.nasa.gov/moons/earths-moon/in-depth/
+moon,#e07625,compositional,n,core,#e07625,core,0,330,330,https://en.wikipedia.org/wiki/Internal_structure_of_the_Moon
+moon,#eabf80,compositional,n,mantle,#cc3b3a,mantle,1,1326,1656,https://en.wikipedia.org/wiki/Internal_structure_of_the_Moon
+moon,#e6dfcf,compositional,n,crust,#e6dfcf,crust,2,81.5,1737.5,https://en.wikipedia.org/wiki/Internal_structure_of_the_Moon
+mars,#542a3e,compositional,n,core,#e07625,core,0,1800,1800,https://solarsystem.nasa.gov/planets/mars/in-depth/
+mars,#cc3b3a,compositional,n,mantle,#cc3b3a,mantle,1,1560,3360,https://solarsystem.nasa.gov/planets/mars/in-depth/
+mars,#e6dfcf,compositional,n,crust,#e6dfcf,crust,2,30,3390,https://solarsystem.nasa.gov/planets/mars/in-depth/
+mars,#9cbfab,compositional,y,atmosphere,#9cbfab,atmosphere,3,50,3440,https://solarsystem.nasa.gov/planets/mars/in-depth/
+mars,#542a3e,mechanical,n,core,#e07625,core,0,1800,1800,https://www.planetary.org/multimedia/space-images/charts/interior-structures-of-earth-mars-moon.html
+mars,#D72638,mechanical,n,mesosphere,#D04D19,mesosphere,1,30,1830,https://www.planetary.org/multimedia/space-images/charts/interior-structures-of-earth-mars-moon.html
+mars,#D04D19,mechanical,n,athenosphere,#F0A031,athenosphere,2,520,2350,https://www.planetary.org/multimedia/space-images/charts/interior-structures-of-earth-mars-moon.html
+mars,#F0A031,mechanical,n,lisosphere,#E5D352,lisosphere,3,1010,3360,https://www.planetary.org/multimedia/space-images/charts/interior-structures-of-earth-mars-moon.html
+mars,#e6dfcf,mechanical,n,crust,#e6dfcf,crust,4,30,3390,https://www.planetary.org/multimedia/space-images/charts/interior-structures-of-earth-mars-moon.html
+mars,#9cbfab,mechanical,y,atmosphere,#9cbfab,atmosphere,5,50,3440,https://www.planetary.org/multimedia/space-images/charts/interior-structures-of-earth-mars-moon.html
+mercury,#e07625,compositional,n,core,#e07625,core,0,2074,2074,https://solarsystem.nasa.gov/planets/mercury/in-depth/
+mercury,#eabf80,compositional,n,mantle,#cc3b3a,mantle,1,365,2439,https://solarsystem.nasa.gov/planets/mercury/in-depth/
+mercury,#e6dfcf,composition,n,crust,#e6dfcf,crust,2,35,2474,https://arxiv.org/pdf/1806.02024.pdf
+mercury,#847577,mechanical,n,inner core,#847577,inner core,0,1240,1240,https://www.astronomynotes.com/solarsys/s8.htm
+mercury,#A6A2A2,mechanical,n,liquid core,#E16036,liquid core,1,834,2074,https://www.astronomynotes.com/solarsys/s8.htm
+mercury,#E16036,mechanical,n,iron-sulphide,#A6A2A2,iron-sulphide,2,155,2229,https://www.astronomynotes.com/solarsys/s8.htm
+mercury,#cc3b3a,mechanical,n,mantle,#cc3b3a,mantle,3,210,2439,https://www.astronomynotes.com/solarsys/s8.htm
+mercury,#e6dfcf,mechanical,n,crust,#e6dfcf,crust,4,35,2474,https://www.astronomynotes.com/solarsys/s8.htm
+venus,#e07625,compositional,n,core,#e07625,core,0,3200,3200,https://solarsystem.nasa.gov/planets/venus/in-depth/
+venus,#eabf80,compositional,n,mantle,#cc3b3a,mantle,1,2832,6032,http://venus.aeronomie.be/en/venus/internalstructure.htm
+venus,#e6dfcf,compositional,n,crust,#e6dfcf,crust,2,20,6052,https://solarsystem.nasa.gov/planets/venus/in-depth/
+venus,#9cbfab,compositional,y,troposphere,#9cbfab,troposphere,3,62,6114,https://iopscience.iop.org/article/10.1088/0034-4885/66/10/R04/pdf
+venus,#527d7a,compositional,y,mesosphere,#527d7a,mesosphere,4,38,6152,https://iopscience.iop.org/article/10.1088/0034-4885/66/10/R04/pdf
+venus,#254853,compositional,y,ionosphere,#254853,ionosphere,5,162.5,6314.5,https://iopscience.iop.org/article/10.1088/0034-4885/66/10/R04/pdf
+earth,#542A3E,mechanical,n,inner core,#542a3e,inner core,0,1200,1200,http://hyperphysics.phy-astr.gsu.edu/hbase/Geophys/earthstruct.html
+earth,#a54657,mechanical,n,outer core,#a54657,outer core,1,2250,3450,https://www.ccsf.edu/Departments/History_of_Time_and_Life/content/EarthScale.htm
+earth,#D04D19,mechanical,n,mesosphere,#D04D19,mesosphere,2,2200,5650,http://hyperphysics.phy-astr.gsu.edu/hbase/Geophys/earthstruct.html
+earth,#F0A031,mechanical,n,athenosphere,#F0A031,athenosphere,3,600,6250,https://www.ccsf.edu/Departments/History_of_Time_and_Life/content/EarthScale.htm
+earth,#E5D352,mechanical,n,lithosphere,#E5D352,lithosphere,4,100,6350,http://hyperphysics.phy-astr.gsu.edu/hbase/Geophys/earthstruct.html
+earth,#353531,mechanical,n,crust,#e6dfcf,crust,5,30,6380,https://www.ccsf.edu/Departments/History_of_Time_and_Life/content/EarthScale.htm
+earth,#63adf2,mechanical,y,troposphere,#63adf2,troposphere,6,12,6392,https://www.ccsf.edu/Departments/History_of_Time_and_Life/content/EarthScale.htm
+earth,#a7cced,mechanical,y,stratosphere,#a7cced,stratosphere,7,38,6430,https://www.ccsf.edu/Departments/History_of_Time_and_Life/content/EarthScale.htm
+earth,#82a0bc,mechanical,y,mesosphere,#82a0bc,mesosphere,8,30,6460,https://www.ccsf.edu/Departments/History_of_Time_and_Life/content/EarthScale.htm
+earth,#545e75,mechanical,y,ionosphere,#545e75,ionosphere,9,400,6860,https://www.ccsf.edu/Departments/History_of_Time_and_Life/content/EarthScale.htm
+earth,#e07625,compositional,n,core,#e07625,core,0,3450,3450,https://www.e-education.psu.edu/marcellus/node/870
+earth,#cc3b3a,compositional,n,mantle,#cc3b3a,mantle,1,2900,6350,https://www.e-education.psu.edu/marcellus/node/870
+earth,#e6dfcf,compositional,n,crust,#e6dfcf,crust,2,30,6380,https://www.e-education.psu.edu/marcellus/node/870
+earth,#9cbfab,compositional,y,atmosphere,#9cbfab,atmosphere,3,480,6860,https://www.e-education.psu.edu/marcellus/node/870
+jupiter,#272635,compositional,NA,core,#272635,core,0,25500,25500,https://www.astronomynotes.com/solarsys/s8.htm
+jupiter,#7C98B3,compositional,NA,metallic hydrogen,#7C98B3,metallic hydrogen,1,38000,63500,https://www.astronomynotes.com/solarsys/s8.htm
+jupiter,#BFEDEF,compositional,NA,liquid hydrogen,#BFEDEF,liquid hydrogen,2,20000,83500,https://www.astronomynotes.com/solarsys/s8.htm
+jupiter,#f1f1f1,compositional,NA,atmosphere,#BBC7CE,atmosphere,3,1000,84500,https://www.astronomynotes.com/solarsys/s8.htm
+saturn,#272635,compositional,NA,core,#272635,core,0,26000,26000,https://www.astronomynotes.com/solarsys/s8.htm
+saturn,#4F7CAC,compositional,NA,ice core,#4F7CAC,ice core,1,3500,29500,https://www.astronomynotes.com/solarsys/s8.htm
+saturn,#7C98B3,compositional,NA,metallic hydrogen,#7C98B3,metallic hydrogen,2,12000,41500,https://www.astronomynotes.com/solarsys/s8.htm
+saturn,#BFEDEF,compositional,NA,liquid hydrogen,#BFEDEF,liquid hydrogen,3,28000,69500,https://www.astronomynotes.com/solarsys/s8.htm
+saturn,#f1f1f1,compositional,NA,atmosphere,#BBC7CE,atmosphere,4,2000,71500,https://www.astronomynotes.com/solarsys/s8.htm
+neptune,#272635,compositional,NA,core,#272635,core,0,8000,8000,https://www.astronomynotes.com/solarsys/s8.htm
+neptune,#A5D8FF,compositional,NA,mantle,#A5D8FF,mantle,1,7000,15000,https://www.astronomynotes.com/solarsys/s8.htm
+neptune,#f1f1f1,compositional,NA,atmosphere,#BBC7CE,atmosphere,2,9000,24000,https://www.astronomynotes.com/solarsys/s8.htm
+uranus,#272635,compositional,NA,core,#272635,core,0,8500,8500,https://www.astronomynotes.com/solarsys/s8.htm
+uranus,#A5D8FF,compositional,NA,mantle,#A5D8FF,mantle,1,7000,15500,https://www.astronomynotes.com/solarsys/s8.htm
+uranus,#f1f1f1,compositional,NA,atmosphere,#BBC7CE,atmosphere,2,10000,25500,https://www.astronomynotes.com/solarsys/s8.htm
