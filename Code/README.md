@@ -74,24 +74,26 @@ There is now a ***Data*** directory where all data is stored. I will continue to
 
 # Table of code contents
 
+Difficulty based on a three star system. Bear in mind all of these can be adapted to make them harder or easier!
+
 AstPy Number | Difficulty | Description     | Data Files  | Comments
 ------------ | ---------- | -------------   | ----------- | --------
 1 | :star: | Intro to Python and Numpy ||
 1.2 | :star::star: | Intermediate Introduction to Python ||
-2 |  | Challenge: Bouncing Balls || Bit harder than intro - adds plotting + animation.
-3 |  | Stellar Fusion | Nuclear masses and binding energies (csv) |  Binding energy anim and calcs including coulomb potential well.
-4 |  | Solar Images | Various SDO HMI and AIA FITS | Getting and potting SDO/SOHO Images.
-5 |  | Solar Radiation | | Blackbody rad, Wien's law etc. Effective temperature of planets.
-6 |  | Sunspots | SDO HMI Fits | Calculation of solar rotation period (interactive and automatic). Sunspot identification and sunspot tracking (automatic).
-7 |  | Lunar Surface | LOLA DEM, LOLA Raw Topographic Data for Catalan Crater | Annotating your image of the moon from a telescope. Calculating resolution, crater heights and diameters. Comparing to Lunar Reconnaissance Orbiter (LRO) and Lunar Orbiter Laser Altimeter (LOLA) data.
-8 |  | Planets | Orbital data, density, radius, mass etc. | Comparing planets by looking at data from the NASA Planetary Factsheet such as mass and radius etc. Looking briefly at exoplanet detection and observational bias.
-9 |  | Planetary Interiors | Structure of the planets csv and chemcial composition of the Earth csvs. | Visualising the interiors of planets, visualise the chemical composition of the Earth's interior.
-10 |  | Planetary Atmospheres | Chemical composition of planetary atmospheres. Exobase altitudes and temperatures (with escape velocities).  | Visualising and comparing the chemical composition of planetary atmospheres. Calculating whether a planet can hold onto a gas using escape velocities and kinetic theory.
-11 |  | Earth's Heat| Geothermal gradient data and pressure data.  | Visualise the thermal gradient of the Earth. Model the geotherm of the lithosphere. Calculate energy transfer via conduction and latent heat.
-12 |  | Earth's Atmosphere | Data to construct the international standard atmosphere (ISA) model. | Visualising the temperature, pressure, density, and speed of sound variation with altitude using the ISA model.
+2 | :star::star: | Challenge: Bouncing Balls || Bit harder than intro - adds plotting + animation.
+3 | :star::star: | Stellar Fusion | Nuclear masses and binding energies (csv) |  Binding energy anim and calcs including coulomb potential well.
+4 | :star: | Solar Images | Various SDO HMI and AIA FITS | Getting and potting SDO/SOHO Images.
+5 | :star: | Solar Radiation | | Blackbody rad, Wien's law etc. Effective temperature of planets.
+6 | :star::star::star: | Sunspots | SDO HMI Fits | Calculation of solar rotation period (interactive and automatic). Sunspot identification and sunspot tracking (automatic).
+7 | :star::star::star: | Lunar Surface | LOLA DEM, LOLA Raw Topographic Data for Catalan Crater | Annotating your image of the moon from a telescope. Calculating resolution, crater heights and diameters. Comparing to Lunar Reconnaissance Orbiter (LRO) and Lunar Orbiter Laser Altimeter (LOLA) data.
+8 | :star: | Planets | Orbital data, density, radius, mass etc. | Comparing planets by looking at data from the NASA Planetary Factsheet such as mass and radius etc. Looking briefly at exoplanet detection and observational bias.
+9 | :star: | Planetary Interiors | Structure of the planets csv and chemcial composition of the Earth csvs. | Visualising the interiors of planets, visualise the chemical composition of the Earth's interior.
+10 | :star::star: | Planetary Atmospheres | Chemical composition of planetary atmospheres. Exobase altitudes and temperatures (with escape velocities).  | Visualising and comparing the chemical composition of planetary atmospheres. Calculating whether a planet can hold onto a gas using escape velocities and kinetic theory.
+11 | :star::star: | Earth's Heat| Geothermal gradient data and pressure data.  | Visualise the thermal gradient of the Earth. Model the geotherm of the lithosphere. Calculate energy transfer via conduction and latent heat.
+12 | :star::star: | Earth's Atmosphere | Data to construct the international standard atmosphere (ISA) model. | Visualising the temperature, pressure, density, and speed of sound variation with altitude using the ISA model.
 13 |  | Martian Surface | | COMING SOON!
-14 |  | Planetary Rings | Data on the ring structure for all gas giants and data on their moons. | Visualising the ring structure of Saturn and the other gas giants. Calculating roche limits for some moons.
-15 |  | Ring Dynamics | Data on Saturns moons. | Visualising the Roche limit with an N-body simulation. Calculating the locations of mean-motion resonances. Looking at bending and density waves, and the effects of shepherd moons.
+14 | :star::star: | Planetary Rings | Data on the ring structure for all gas giants and data on their moons. | Visualising the ring structure of Saturn and the other gas giants. Calculating roche limits for some moons.
+15 | :star::star::star:+ | Ring Dynamics | Data on Saturns moons. | Visualising the Roche limit with an N-body simulation. Calculating the locations of mean-motion resonances. Looking at bending and density waves, and the effects of shepherd moons.
 
 # Challenges
 
