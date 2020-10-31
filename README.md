@@ -29,7 +29,7 @@ If you want to contribute or support the creation and upkeep of these resources 
 **Folders:**
 
 **Code** - Python code on different Astronomy topics  
-**CourseDocs** - Intro to the unit and assignments. Teacher and learner documents.
+**CourseDocs** - Intro to the unit and assignments. Teacher and learner documents.    
 **DesignAssets** - Illustrator Files, Images, and PPT Template for all resources  
 **Powerpoints** - Astronomy Powerpoints!  
 **Practicals** - Lab based practicals and observational astronomy  
