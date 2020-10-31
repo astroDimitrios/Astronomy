@@ -8,3 +8,5 @@ The file **Unit 16 - SoL Teacher** is an Excel file with timetabled lessons, pra
 I have included a copy of the NASA planetary datasheet in Excel form which I give to students at the start of the unit.
 
 Further documents related to assignments and SoL Excel files for students can be found in the respective part directories above.
+
+The new **ExtraResources** file contains links to resources as I use them!
