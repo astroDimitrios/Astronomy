@@ -1,5 +1,7 @@
 # Solar Images
 
+***local only*** - doesn't work online in JupyterLab due to glymur and SunPy problems which I cannot resolve
+
 ## AIM - To access image data on the sun and visualise it in different wavelengths
 
 **Predict**
