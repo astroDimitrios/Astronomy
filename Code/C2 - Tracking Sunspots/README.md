@@ -6,8 +6,4 @@ How can you use your tracking code to calculate the rotation period of the sun?
 
 ![AstroWelcome](sunspotsTracked.gif)
 
-My attempt at this is in the AstPy-6 activity (no peeking!). I will be making a few changes that are nagging me over the summer before I post my solution.
-
-## My solution
-
-Come back in September!
+My attempt at this is in the AstPy-6 activity (no peeking!).
