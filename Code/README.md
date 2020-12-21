@@ -102,4 +102,6 @@ Well my solution to it anyway.
 Challenge Number | Date | Description     | Data Files  | Comments
 ------------ | -----------| -------------   | ----------- | --------
 1 | 2020 June | Calculate the time between when a planet is at its closest to the Earth and when a planet is at its furthest from the Earth. || My solution is for Mars!
-2 | 2020 Summer | Create a program to track sunspots across the face of the Sun automatically. || Solution in September!
+2 | 2020 Summer | Create a program to track sunspots across the face of the Sun automatically. || Solution in AstPy-6
+3 | 2020 Autumn | How much older would you be if you stayed on Earth instead of travelling to Alpha Centauri at a) warp 5? or b) sublight speed? | | Solution on Youtube! [Here](https://www.youtube.com/watch?v=wGmS2CCaKxg)
+4 | 2020/21 Winter | Earth has one Moon, Mars two, and Tatooine three! If Mars and Tatooine had oceans of water on them what would the tides be like? | |
