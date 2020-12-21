@@ -78,9 +78,8 @@ Difficulty based on a three star system. Bear in mind all of these can be adapte
 
 AstPy Number | Difficulty | Description     | Data Files  | Comments
 ------------ | ---------- | -------------   | ----------- | --------
-1 | :star: | Intro to Python and Numpy ||
-1.2 | :star::star: | Intermediate Introduction to Python ||
-2 | :star::star: | Challenge: Bouncing Balls || Bit harder than intro - adds plotting + animation.
+1 | :star: | Introductory Activities || 10 Intro Activities (2 fully guided)
+2 | :star::star: | Intermediate introductory activities
 3 | :star::star: | Stellar Fusion | Nuclear masses and binding energies (csv) |  Binding energy anim and calcs including coulomb potential well.
 4 | :star: | Solar Images | Various SDO HMI and AIA FITS | Getting and potting SDO/SOHO Images.
 5 | :star: | Solar Radiation | | Blackbody rad, Wien's law etc. Effective temperature of planets.
