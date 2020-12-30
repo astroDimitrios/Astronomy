@@ -18,8 +18,8 @@ Intro | Title | Description
 ------------ | ---------- | ----------
 1 | Intro to Python | Introduction to Python 3 and the NumPy library.
 2 | Pandas and Matplotlib | Introduction to using Pandas to read csv's and Matplotlib for plotting.
-3 | Light Speed |
-4 | Spreading Out |
+3 | Light Speed | Basic Python skills, list comprehension, functions, dictionaries etc.
+4 | Spreading Out | Basic Python skills, string formatting, function arguments.
 5 | Gravity Wells |
 6 | The Atmosphere |
 7 | Plotting the Stars | 
