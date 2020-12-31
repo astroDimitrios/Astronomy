@@ -1,6 +1,6 @@
 To reference these resources in general please cite:
 
-Dimitrios Theodorakis, Astronomy Resources, 2020, Url: https://github.com/astroDimitriosAstronomy
+Dimitrios Theodorakis, Astronomy and Python Resources, 2020, Url: https://github.com/astroDimitriosAstronomy
 
 Note many of the resources here are derived from other works with Open Source licenses.
 Please remember to include any citations or attributons for other authors.
