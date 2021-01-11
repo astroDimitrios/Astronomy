@@ -1,0 +1,2 @@
+https://hub.astropython.com/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FastroDimitrios%2FAstPy-3&urlpath=lab%2Ftree%2FAstPy-3%2Ffusion.ipynb&branch=main
+https://bit.ly/35sMWvu
