@@ -1,6 +1,6 @@
 <p align="center">
     <!-- ![AstroWelcome](/DesignAssets/Ai/LogoMain@2x.png | width=400) -->
-    <img width="10%" src="https://github.com/astroDimitrios/Astronomy/blob/master/DesignAssets/Ai/LogoMain%402x.png">
+    <img width="50%" src="https://github.com/astroDimitrios/Astronomy/blob/master/DesignAssets/Ai/LogoMain%402x.png">
 </p>
 
 # Astronomy
