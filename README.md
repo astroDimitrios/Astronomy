@@ -1,4 +1,6 @@
-![AstroWelcome](/DesignAssets/Ai/LogoMain@2x.png)
+<p align="center">
+    ![AstroWelcome](/DesignAssets/Ai/LogoMain@2x.png | width=400)
+</p>
 
 # Astronomy
 
