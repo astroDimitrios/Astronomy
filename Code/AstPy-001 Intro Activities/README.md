@@ -1,6 +1,6 @@
 # Intro Activities
 
-These introductory notebooks are designed to give you basic Python skills and let you practice them. Python is used by Astronomers all over the world to run simulations, analyse telescope data, and much much more. The first two activities teach you the basics of Python 3, NumPy - a Python library for numerical calculations and arrays, Matplotlib - a plotting library, and Pandas - a library for manipulating csv's and other files. The rest of the intro activities get you to practice using the skills you have learnt and build on them further.
+These introductory notebooks are designed to give you basic Python skills and let you practice them. Python is used by Astronomers all over the world to run simulations, analyse telescope data, and much much more. The first activity teaches you the basics of Python 3, and NumPy - a Python library for numerical calculations and arrays. The fourth tackles Matplotlib - a plotting library, and Pandas - a library for manipulating csv's and other files. The rest of the intro activities get you to practice using the skills you have learnt and build on them further.
 
 If you are stuck you can consult the Python and NumPy docs at https://docs.python.org/3/, and https://numpy.org/doc/stable/, find help from one of these websites www.w3schools.com, www.python.org, www.learnpython.org (great intro lessons here) or you can also get advice from www.stackoverflow.com.
 
@@ -17,9 +17,9 @@ Inspiration was taken from the Exoplanet Transit Lab from the Dominion Astrophys
 Intro | Title | Description
 ------------ | ---------- | ----------
 1 | Intro to Python | Introduction to Python 3 and the NumPy library.
-2 | Pandas and Matplotlib | Introduction to using Pandas to read csv's and Matplotlib for plotting.
-3 | Light Speed | Basic Python skills, list comprehension, functions, dictionaries etc.
-4 | Spreading Out | Basic Python skills, string formatting, function arguments.
+2 | Light Speed | Basic Python skills, list comprehension, functions, dictionaries etc.
+3 | Spreading Out | Basic Python skills, string formatting, function arguments.
+4 | Pandas and Matplotlib | Introduction to using Pandas to read csv's and Matplotlib for plotting.
 5 | Gravity Wells |
 6 | The Atmosphere |
 7 | Plotting the Stars | 

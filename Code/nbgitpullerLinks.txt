@@ -1,2 +1,14 @@
-https://hub.astropython.com/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FastroDimitrios%2FAstPy-3&urlpath=lab%2Ftree%2FAstPy-3%2Ffusion.ipynb&branch=main
-https://bit.ly/35sMWvu
+nbgitpuller links
+
+https://jupyterhub.github.io/nbgitpuller/link
+
+Launch
+https://hub.astropython.com/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FastroDimitrios%2FLaunch&urlpath=lab%2Ftree%2FLaunch%2FWelcome.ipynb&branch=main
+https://bit.ly/2Xsdbhk
+AstPy-1
+https://hub.astropython.com/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FastroDimitrios%2FAstPy-001&urlpath=lab%2Ftree%2FAstPy-001%2FREADME.ipynb&branch=main
+https://bit.ly/3nU7ovI
+AstPy-2
+Summer 2021
+AstPy-3
+Fixing
