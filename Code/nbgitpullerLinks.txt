@@ -11,4 +11,5 @@ https://bit.ly/3nU7ovI
 AstPy-2
 Summer 2021
 AstPy-3
-Fixing
+https://hub.astropython.com/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FastroDimitrios%2FAstPy-003&urlpath=lab%2Ftree%2FAstPy-003%2Ffusion.ipynb&branch=main
+https://bit.ly/38QS0Mi
