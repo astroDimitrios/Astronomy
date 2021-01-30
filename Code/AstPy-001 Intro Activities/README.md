@@ -7,8 +7,11 @@ If you are stuck you can consult the Python and NumPy docs at https://docs.pytho
 This interactive notebook is part of a series which can be found here: https://github.com/AstroDimitrios/Astronomy.  
 The notebook is distributed by Dimitrios Theodorakis under the GNU General Public License v3.0.    
 If something is not working right or you have questions/suggestions about these notebooks please email me at astrodimitrios@gmail.com.     
+
 The Numpy section was adapted from work by Ridwan Barbhuiyan - https://github.com/rbarbhuiyan.      
 Inspiration was taken from the Exoplanet Transit Lab from the Dominion Astrophysical Observatory, Canada here: https://centreoftheuniverse.org/transit-lab, and the work of Adam LaMee's Coding in K12 here: https://adamlamee.github.io/.
+
+Thanks to Mary MacDonald, Planetarium Manager at the Christa McAuliffe [Center for Integrated Science Learning](https://cm-center.org/) for testing these activities and providing feedback.
 
 # Table of Intro Activities
 
