@@ -1,7 +1,5 @@
 # Code
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/DimitriosAstro/Astronomy/master?filepath=Code)  
-
 ## Intro
 
 This directory contains code on various Astronomy topics.
@@ -19,7 +17,6 @@ Some are best done in pairs like the introduction activities AstPy1 and AstPy2. 
 Folders starting with a ***C*** are the Astronomy and Python challenges that anyone can participate in. I will try and make them at least bi-monthly. Maybe less over the summer and new year. My solutions will be added to the folder after the end of the challenge.
 
 **NOTE** - Sometimes when I update a interactive notebook with corrections I forget about the normal .py version so it's not the most up to date.  
-When I make new commits the binder image is re-built so if it takes ages to load I'm sorry I forgot to rebuild the binder. (This takes a good 5-10 mins)
 
 **Inspiration taken from:**
 
@@ -31,9 +28,11 @@ astronomycenter resources, [https://www.compadre.org/astronomy/index.cfm](https:
 
 ## How to run the code
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/DimitriosAstro/Astronomy/master?filepath=Code)  
-**Binder repository of my notebooks**  
-Binder will launch an interactive session with this repository allowing the user to interact with all notebooks.
+<p><strong>NEW: </strong>You can now test some of the activities on our JupyterHub. Sign up <a href="https://hub.astropython.com/hub/signup">here</a> with a username and password then head over to <a href="https://hub.astropython.com/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FastroDimitrios%2FLaunch&urlpath=lab%2Ftree%2FLaunch%2FWelcome.ipynb&branch=main">hub.astropython.com</a> and log in! (It's important to use the second link after signing up so you get sent to the Welcome document)
+
+The welcome document has links which pull the activities you want to try from my GitHub. If something doesn't work please let me know! The server is built for my students so it can only handle 20-30 people at a time. If you do test out some of the activities let me know what you think.</p>
+
+**NOTE:** The server may go down periodically. If you want to keep your work please download it to your local computer, do NOT assume it is safe forever on the hub. 
 
 **Alternate ways of running notebooks**
 

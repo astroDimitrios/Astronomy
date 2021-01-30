@@ -27,6 +27,8 @@ It was designed to be useful for any course however I use it to teach the BTEC N
 
 The welcome document has links which pull the activities you want to try from my GitHub. If something doesn't work please let me know! The server is built for my students so it can only handle 20-30 people at a time. If you do test out some of the activities let me know what you think.</p>
 
+**NOTE:** The server may go down periodically. If you want to keep your work please download it to your local computer, do NOT assume it is safe forever on the hub. 
+
 If you want to contribute or support the creation and upkeep of these resources please contact me at **astrodimitrios(at)gmail.com**
 
 **Folders:**
