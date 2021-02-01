@@ -16,3 +16,7 @@ https://bit.ly/38QS0Mi
 AstPy-004
 https://hub.astropython.com/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FastroDimitrios%2FAstPy-004&urlpath=lab%2Ftree%2FAstPy-004%2FsolarImages.ipynb&branch=main
 https://bit.ly/3c6esD9
+
+S001
+https://hub.astropython.com/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FastroDimitrios%2FS001&urlpath=lab%2Ftree%2FS001%2Flaunch.ipynb&branch=main
+https://bit.ly/2NXAEFJ
