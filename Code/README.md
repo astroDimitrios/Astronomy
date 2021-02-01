@@ -111,4 +111,4 @@ A folder with an S then a number (S001 for instance) is a special activity.
 
 Special Number |  Description  | Data Files  | Comments
 ------------ | -----------| -------------   | ----------- 
-1 | Celebrate the landing of the Mars 2020 Perseverance Rover by calculating launch windows to Mars with a Hohmann transfer orbit. | Ecliptic longitude and distance data for Earth and Mars | Also includes a notebook which makes the Hohmann transfer rover gif [here]().
+1 | Celebrate the landing of the Mars 2020 Perseverance Rover by calculating launch windows to Mars with a Hohmann transfer orbit. | Ecliptic longitude and distance data for Earth and Mars | Also includes a notebook which makes the Hohmann transfer rover gif [here](https://github.com/astroDimitrios/Astronomy/blob/master/Code/S001%20-%20Mars%202020%20Launch%20Windows/GIF%20Files/social.gif).
