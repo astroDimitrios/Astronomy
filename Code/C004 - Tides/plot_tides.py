@@ -55,9 +55,9 @@ ax.annotate("Moon",
 
 # annotate max vert and hor acceleration components
 max_h_ang = thetas[np.where(u == u.max())[0][0]]/2/np.pi*360
-t1 = 'Max Hor. Acceleration = ${:.4G}'.format(u.max())+r'\ ms^{-2}$'+' at angle {:.0f}'.format(max_h_ang)+'$^{\circ}$'
+t1 = 'Max Hor. Acceleration = {:.4G}'.format(u.max())+r' ms$^{-2}$'+' at angle {:.0f}'.format(max_h_ang)+'$^{\circ}$'
 max_v_ang = thetas[np.where(v == v.max())[0][0]]/2/np.pi*360
-t2 = 'Max Vert. Acceleration = ${:.4G}'.format(v.max())+r'\ ms^{-2}$'+' at angle {:.0f}'.format(max_v_ang)+'$^{\circ}$'
+t2 = 'Max Vert. Acceleration = {:.4G}'.format(v.max())+r' ms$^{-2}$'+' at angle {:.0f}'.format(max_v_ang)+'$^{\circ}$'
 t3 = 'Angles measured counterclockwise from + x-axis'
 ax.text(0.5, 0.05, t1+'\n'+t2+'\n'+t3, 
      horizontalalignment='center', verticalalignment='center', transform=ax.transAxes)
