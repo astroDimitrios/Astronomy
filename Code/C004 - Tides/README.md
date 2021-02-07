@@ -13,9 +13,13 @@ Possible improvements:
 
 * Make code check for previously calculated values of tides from more than one body to use. So if you want the tides from the Sun+Moon+Jupiter it will only look for 'Sun', 'Moon' etc and not 'Sun+Moon' so it's missing an apportunity to use some previously calculated values.
 
-* Plot the output with Matplotlib.
-
 * Add a dict with planets etc and their data inside so people don't have to input values manually.
+
+The **plot_tides.py** code makes this plot and is easily adapted:
+
+<p align="center">
+    <img width="80%" src="https://github.com/astroDimitrios/Astronomy/blob/master/Code/C004%20-%20Tides/Tides_Moon_0.png">
+</p>
 
 These are some of the figures I made to help me solve the challenge as well as the whiteboard image in the Working Directory (which has some mistakes in relation to the sign preservation section).
 
