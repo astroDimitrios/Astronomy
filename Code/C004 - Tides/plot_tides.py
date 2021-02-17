@@ -38,7 +38,7 @@ ax.add_patch(planetCircle)
 q = ax.quiver(x, y, u, v, zorder=1)
 
 # title and subtitle
-title_text = 'Tidal Acceleration from the Moon at {:.0f}'.format(off_moon)+'$^{\circ}$'
+title_text = 'Tidal Acceleration from the Moon at {:.0f}'.format(off_moon/2/np.pi*360)+'$^{\circ}$'
 ax.text(0.5, 1, title_text, fontsize=20,
      horizontalalignment='center', verticalalignment='center', transform=ax.transAxes)
 sub_title_text = 'Acc. on an object of unit mass. Arrows to scale not including arrowheads.'
@@ -70,3 +70,5 @@ ax.axis('off')
 # plt.show()
 file_name = 'Tides_Moon_{:.0f}.png'.format(off_moon)
 plt.savefig(file_name, dpi=150)
+# file_name_tight = 'Tides_Moon_{:.0f}_tight.png'.format(off_moon)
+# plt.savefig(file_name_tight, dpi=150, bbox_inches="tight")

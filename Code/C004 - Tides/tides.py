@@ -150,7 +150,8 @@ class Main:
         force_p_h_diff = force_p_h - force_c*np.cos(body.off)
         force_p_v_diff = force_p_v - force_c*np.sin(body.off)
         # set low numbers to zero - to set hor diff to zero at pi/2 and 3pi/2 for instance
-        zero_cut = 5*10**-8      # specific to Moon and Earth
+        # zero_cut = 5*10**-8      # specific to Moon and Earth
+        zero_cut = 0
         force_p_h_diff[np.abs(force_p_h_diff) < zero_cut] = 0
         force_p_v_diff[np.abs(force_p_v_diff) < zero_cut] = 0
         return [force_c, force_p_h, force_p_h_diff, force_p_v, force_p_v_diff]
@@ -259,7 +260,7 @@ if __name__ == "__main__":
 
     # offsets in radians from theta = 0
     off_moon = 0
-    off_sun = 0
+    off_sun = np.pi/4
 
     # initialise Earth and Moon
     earth = Main('Earth', 5.972*10**24, 6371000, 1/4, scale)
@@ -279,6 +280,7 @@ if __name__ == "__main__":
     # # Sun and Moon aligned same side - Spring tide
     sun = Body('Sun', 1.989*10**30, 1.495978707*10**11, off_sun)
     double_forces = earth.tides(moon, sun) 
+    # print(double_forces)
 
     # # check 44% strength of Sun tide compared to Moon PASS
     # print(earth.tide_f['Moon'][2][0])
@@ -286,6 +288,6 @@ if __name__ == "__main__":
     # print(earth.tide_f['Sun'][2][0]/earth.tide_f['Moon'][2][0]*100)
     # print(earth.tide_f['Moon+Sun'][2][0])
 
-    # # fictitious 3-body test
-    sun2 = Body('Sun2', 1.989*10**30, 1.495978707*10**11, 0)
-    trip_forces = earth.tides(moon, sun, sun2)
+    # # # fictitious 3-body test
+    # sun2 = Body('Sun2', 1.989*10**30, 1.495978707*10**11, 0)
+    # trip_forces = earth.tides(moon, sun, sun2)
