@@ -1,6 +1,7 @@
-"""
-tides.py calculates the tidal forces on an object due to any number of bodies
-If you share, use or modify this activity in any way use the citation found here:
+""" tides.py
+Calculates the tidal forces on an object due to any number of bodies.
+
+If you share, use or modify this code in any way use the citation found here:
 https://github.com/astroDimitrios/Astronomy/blob/master/CITATION.txt
 Please contact me at astrodimitrios@gmail.com with any suggestions, mistakes found, or general questions about teaching astronomy with Python.
 
