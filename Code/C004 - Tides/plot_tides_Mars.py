@@ -41,7 +41,7 @@ ax.add_patch(planetCircle)
 q = ax.quiver(x, y, u, v, zorder=1)
 
 # title and subtitle
-title_text = 'Tidal Acceleration from Phobos at {:.0f}'.format(off_p/2/np.pi*360)+'$^{\circ}$'+'and Deimos at {:.0f}'.format(off_d/2/np.pi*360)+'$^{\circ}$'
+title_text = 'Tidal Acceleration from Phobos at {:.0f}'.format(off_p/2/np.pi*360)+r'$^{\circ}$'+'and Deimos at {:.0f}'.format(off_d/2/np.pi*360)+r'$^{\circ}$'
 ax.text(0.5, 0.98, title_text, fontsize=20,
      horizontalalignment='center', verticalalignment='center', transform=ax.transAxes)
 sub_title_text = 'Acc. on an object of unit mass. Arrows to scale not including arrowheads.\n Sizes and distances NTS.'

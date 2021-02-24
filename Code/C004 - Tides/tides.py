@@ -49,7 +49,7 @@ class Main:
 
         Example:
             This example creates the Earth with scale equal to its mass to get tidal acceleration
-            Scale is 1/4 so calculations are at 8 points over sphere, pi/4 apart
+            Step is 1/4 so calculations are at 8 points over sphere, pi/4 apart
             >>> earth = Main('Earth', 5.972*10**24, 6371000, 1/4, 5.972*10**24)
         """
         self.name = name
@@ -269,7 +269,7 @@ if __name__ == "__main__":
 
     # calculate tidal forces
     forces = earth.tides(moon)
-    # print(forces)
+    print(forces)
 
     # # check a value for one side PASS
     # my_a = (earth.tide_f['Moon'][1][0]-earth.tide_f['Moon'][0])
@@ -283,6 +283,9 @@ if __name__ == "__main__":
     double_forces = earth.tides(moon, sun) 
     # print(double_forces)
 
+    # import pprint
+    # pprint.pprint(earth.tide_f)
+
     # # check 44% strength of Sun tide compared to Moon PASS
     # print(earth.tide_f['Moon'][2][0])
     # print(earth.tide_f['Sun'][2][0])
@@ -292,3 +295,4 @@ if __name__ == "__main__":
     # # # fictitious 3-body test
     # sun2 = Body('Sun2', 1.989*10**30, 1.495978707*10**11, 0)
     # trip_forces = earth.tides(moon, sun, sun2)
+    # print(trip_forces)
