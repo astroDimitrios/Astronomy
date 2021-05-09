@@ -1,0 +1,109 @@
+PDS_VERSION_ID            = "PDS3"
+
+/*** GENERAL DATA DESCRIPTION PARAMETERS ***/
+PRODUCT_VERSION_ID        = "V3.1"
+DATA_SET_ID               = "LRO-L-LOLA-4-GDR-V1.0"
+PRODUCT_ID                = "LDEM_16_FLOAT"
+INSTRUMENT_HOST_NAME      = "LUNAR RECONNAISSANCE ORBITER"
+INSTRUMENT_NAME           = "LUNAR ORBITER LASER ALTIMETER"
+INSTRUMENT_ID             = "LOLA"
+MISSION_PHASE_NAME        = {"COMMISSIONING","NOMINAL MISSION","SCIENCE
+                            MISSION","EXTENDED SCIENCE MISSION",
+                            "SECOND EXTENDED SCIENCE MISSION","THIRD
+                            EXTENDED SCIENCE MISSION"} 
+TARGET_NAME               = MOON
+START_TIME                = 2009-07-13T17:33:17
+STOP_TIME                 = 2016-11-29T05:48:19
+PRODUCT_CREATION_TIME     = 2019-03-15
+PRODUCER_ID               = LRO_LOLA_TEAM
+PRODUCER_FULL_NAME        = "DAVID E. SMITH"
+PRODUCER_INSTITUTION_NAME = "GODDARD SPACE FLIGHT CENTER"
+DESCRIPTION               = "This data product is a shape map (radius)
+   of the Moon at a resolution of 1.89521 km/pix by 1.89521 km/pix,
+   based on altimetry data acquired through mission phase LRO_ES_52
+   by the LOLA instrument. All LOLA data used for the generation of 
+   this GDR products are geolocated using precision orbits based on a 
+   revised lunar gravity field GRGM 900C[LEMOINEETAL2014].  The previous
+   version of this product was generated with data through LRO_ES_21.
+   An additional 505,763,339 data points have been added.
+
+   The gridfiles were produced in 45 degree latitude bands, and there 
+   may be edge artifacts at this boundary.  Unlike previous versions of
+   these products, the Generic Mapping Tools (GMT) program 'grdblend' was
+   not used.  At higher resolutions, the GMT5.4.2 program 'surface' was
+   used to compensate for incomplete coverage. Tension was set to 0.5
+   and Anisotropy to 0.5 to minimize latitude distortion. The map is in
+   the form of a binary table with one row for each 0.0625 degrees 
+   of latitude, pixel registered.  Map values are relative to a radius 
+   of 1737.4 km.
+
+   This label describes an IMG file in the form of a binary resampling
+   to pixel registration.
+"
+
+OBJECT                    = UNCOMPRESSED_FILE
+FILE_NAME                 = "LDEM_16_FLOAT.IMG"
+RECORD_TYPE               = FIXED_LENGTH
+FILE_RECORDS              = 2880
+RECORD_BYTES              = 23040
+^IMAGE                    = "LDEM_16_FLOAT.IMG"
+
+
+  OBJECT                  = IMAGE
+    NAME                  = HEIGHT
+    DESCRIPTION           = "Each sample represents height relative to a
+      reference radius (OFFSET) and is generated using preliminary LOLA data
+      produced by the LOLA team."
+    LINES                 = 2880
+    LINE_SAMPLES          = 5760
+    MAXIMUM               = 10.790
+    MINIMUM               = -9.075
+    SAMPLE_TYPE           = PC_REAL
+    SAMPLE_BITS           = 32
+    UNIT                  = KILOMETER
+    SCALING_FACTOR        = 1
+    OFFSET                = 1737.4
+
+/* NOTE:                                                                   */
+/* Conversion from Digital Number to HEIGHT in kilometers is:              */
+/* HEIGHT = (DN * SCALING_FACTOR).                                         */
+/* The conversion from Digital Number to PLANETARY_RADIUS in kilometers is:*/
+/* PLANETARY_RADIUS = (DN * SCALING_FACTOR) + OFFSET                       */
+/* where OFFSET is the radius of a reference sphere.                       */
+/* The planetopotential TOPOGRAPHY is PLANETARY_RADIUS - GEOID_RADIUS,     */
+/* where GEOID_RADIUS is derived from a gravitational equipotential model. */
+/* By convention, the average GEOID_RADIUS at the equator is OFFSET.       */
+
+  END_OBJECT              = IMAGE
+END_OBJECT                = UNCOMPRESSED_FILE
+OBJECT                    = IMAGE_MAP_PROJECTION
+ ^DATA_SET_MAP_PROJECTION     = "DSMAP.CAT"
+ MAP_PROJECTION_TYPE          = "SIMPLE CYLINDRICAL"
+ MAP_RESOLUTION               = 16 <pix/deg>
+ A_AXIS_RADIUS                = 1737.4 <km>
+ B_AXIS_RADIUS                = 1737.4 <km>
+ C_AXIS_RADIUS                = 1737.4 <km>
+ FIRST_STANDARD_PARALLEL      = 'N/A'
+ SECOND_STANDARD_PARALLEL     = 'N/A'
+ POSITIVE_LONGITUDE_DIRECTION = "EAST"
+ CENTER_LATITUDE              = 0 <deg>
+ CENTER_LONGITUDE             = 180 <deg>
+ REFERENCE_LATITUDE           = 'N/A'
+ REFERENCE_LONGITUDE          = 'N/A'
+ LINE_FIRST_PIXEL             = 1
+ LINE_LAST_PIXEL              = 2880
+ SAMPLE_FIRST_PIXEL           = 1
+ SAMPLE_LAST_PIXEL            = 5760
+ MAP_PROJECTION_ROTATION      = 0.0
+ MAP_SCALE                    = 1.89521 <km/pix>
+ MAXIMUM_LATITUDE             = 90 <deg>
+ MINIMUM_LATITUDE             = -90 <deg>
+ WESTERNMOST_LONGITUDE        = 0 <deg>
+ EASTERNMOST_LONGITUDE        = 360 <deg>
+ LINE_PROJECTION_OFFSET       = 1439.5 <pix>
+ SAMPLE_PROJECTION_OFFSET     = 2879.5 <pix>
+ COORDINATE_SYSTEM_TYPE       = "BODY-FIXED ROTATING"
+ COORDINATE_SYSTEM_NAME       = "MEAN EARTH/POLAR AXIS OF DE421"
+END_OBJECT                    = IMAGE_MAP_PROJECTION
+
+END

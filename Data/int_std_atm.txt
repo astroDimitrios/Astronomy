@@ -1,0 +1,12 @@
+int_std_atm.csv
+
+Taken from the ISA wikipedia page [here](https://en.wikipedia.org/wiki/International_Standard_Atmosphere).
+
+***layer*** is the layer number 0 being closest to the surface  
+***level_name*** is the layer name  
+***h*** is the geopotential altitude in m  
+***z*** is the geometric altitude in m  
+***lapse_rate*** is the lapse rate in K/km of geopotential altitude  
+***T*** is the base temperature for that layer  
+***P*** is the base pressure for that layer  
+***rho*** is the base density for that layer

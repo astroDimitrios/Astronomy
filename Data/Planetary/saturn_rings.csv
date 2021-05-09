@@ -1,0 +1,42 @@
+﻿Feature,Inner Boundary,Outer Boundary,Optical Depth Lower,Optical Depth Upper,Type,Associated Moons,Footnotes,Comments
+D Ring,"66,900","74,491",0.00001,0.001,"Tenuous, Broad",,"1,10","Contains narrow ringlets at 67,580 and 71,710 km."
+C Ring,"74,491","91,975",0.05,0.35,"Dense, Broad",,"1,10","Contains isolated “plateaus” among a surrounding, fainter ring."
+Colombo Gap,"77,748","77,926",0,0,Gap,,7,
+Titan Ringlet,"77,867","77,890",4,4,"Dense, Narrow",Titan,7,Ringlet that occupies outer third of Colombo Gap. Also known as Colombo Ringlet.
+Maxwell Gap,"87,343","87,610",0,0,Gap,,7,Widest gap in the C Ring.
+Maxwell Ringlet,"87,480","87,539",1,3,"Dense, Narrow",,7,"A narrow, eccentric ringlet inside a gap in the C Ring."
+Bond Gap,"88,686","88,723",0,0,Gap,,7,Gap due to second-order resonance with Mimas.
+Bond Ringlet,"88,702","88,719",1,1,"Dense, Narrow",,7,"A narrow, sharp-edged ringlet inside a gap in the C Ring."
+Dawes Gap,"90,200","90,221",0,0,Gap,,7,Very narrow gap
+Dawes Ringlet,"90,138","90,200",0.2,1,"Dense, Narrow",,7,"This feature has been referred to as ringlet, but it is not detached from the rest of the C ring."
+B Ring,"91,975","117,570",0.4,5,"Dense, Broad",,"1,11",Contains fine structure on all scales. The most opaque of Saturn’s rings.
+Region B1,"91,975","99,000",1.1,1.5,"Dense, Broad",,9,Innermost region of B Ring. Characterized by undulations in optical depth and I/F.
+Region B2,"99,000","104,000",1.5,4,Dense,,9,Central region of B Ring. Characterized by alternating zones of high and low optical depth.
+Region B3,"104,000","110,000",1,5,Dense,,9,"Central region of B Ring. Characterized by high optical depth. Median optical depth is 3.6, the highest of any region in the rings."
+Region B4,"110,000","116,500",2,3,Dense,,9,"Outer region of B Ring. Here the optical depth gradually decreases, but in an irregular way."
+Region B5,"116,500","117,500",0.5,5,Dense,Mimas,9,"Outermost region of B Ring, affected by its highly variable outer edge."
+Cassini Division,"117,500","122,050",0,0.2,"Dense, Broad",,"10,11",The prominent gap between the A and B Rings. It contains several features of low optical depth.
+Huygens Gap,"117,500","117,930",0,0,Gap,Mimas,8,
+Huygens Ringlet,"117,806","117,824",1,2,"Dense, Narrow",,8,
+Strange Ringlet,"117,907","117,909",,,"Dense, Narrow",,8,
+Herschel Gap,"118,188","118,284",0,0,Gap,,8,Approximate boundaries based on Table 3 of Ref 8.
+Herschel Ringlet,"118,234","118,263",0.1,0.1,"Dense, Narrow",,8,"A narrow, eccentric, inclined ringlet near the inner edge of the Cassini Division."
+Russell Gap,"118,590","118,628",0,0,Gap,,8,
+Jeffreys Gap,"118,930","118,967",0,0,Gap,,8,
+Kuiper Gap,"119,402","119,406",0,0,Gap,,8,
+Laplace Gap,"119,845","120,086",0,0,Gap,,8,
+Laplace Ringlet,"120,037","120,078",1,1,"Dense, Narrow",,8,
+Bessel Gap,"120,231","120,244",0,0,Gap,,8,
+Barnard Gap,"120,304","120,316",0,0,Gap,,8,
+A Ring,"122,050","136,770",0.4,1,"Dense, Broad",,"10,12","A fairly uniform ring with many density and bending waves, especially near its outer edge."
+Encke Gap,"133,423","133,745",0,0,Gap,Pan,10,A gap in the A Ring maintained by the embedded moon Pan. One or more faint ringlets are also present.
+Keeler Gap,"136,487","136,522",0,0,Gap,Daphnis,10,A narrow gap in the outer A Ring maintained by the embedded moon Daphnis.
+Roche Division,"136,770","139,380",4,10,"Tenuous, Broad","Atlas, Prometheus",6,The separation between outer edge of A Ring and the F Ring.
+F Ring,"139,826","140,612",0.01,0.2,Narrow,"Prometheus, Pandora","1,13","A complex, narrow, eccentric, inclined ring with a denser core at a=140,224 km demonstrating a wide variety of quasi-stable and ephemeral structure."
+Janus/Epimetheus Ring,"149,000","154,000",0.00,0.00,Tenuous,"Janus, Epimetheus",2,"A narrow, very faint ring in the region occuppied by Janus and Epimetheus."
+G Ring,"166,000","173,200",0.00,0.00,Tenuous,Aegaeon,1,"A faint, isolated dust ring."
+E Ring,"180,000","480,000",0.000005,0.000005,Tenuous,Enceladus,1,"A broad, faint dust ring encompassing the orbits of Mimas through Dione. Densest near the orbit of Enceladus. Up to ~30,000 km in vertical extent."
+Methone Ring,"194,440",,0.0000001,0.0000001,Tenuous,Methone,3,"A narrow, very faint ring in the the region occuppied by Methone."
+Anthe Ring,"197,655",,0.0000001,0.0000001,Tenuous,Anthe,4,"A narrow, very faint ring in the orbit of Anthe."
+Pallene Ring,"212,280",,0.0000001,0.0000001,Tenuous,Pallene,2,"A narrow, very faint ring in the region occuppied by Pallene."
+Phoebe Ring,"7,720,000","12,500,000",0.00000002,0.00000002,Tenuous,Phoebe,5,"A broad, faint ring in the orbit of Phoebe with a vertical extent of ~2,400,000 km."
