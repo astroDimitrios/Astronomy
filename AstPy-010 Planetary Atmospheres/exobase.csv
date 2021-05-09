@@ -1,0 +1,10 @@
+﻿object,exobase alt,exobase alt range,exobase temp high,exobase temp low,esc vel
+Mercury,0,0,703,93,4.3
+Venus,285,65,300,100,10.4
+Earth,500,0,1000,500,11.2
+Mars,195,15,350,200,5
+Jupiter,1600,0,1000,900,59.5
+Saturn,2850,0,600,400,35.3
+Uranus,4700,0,850,850,21.3
+Neptune,2200,0,600,600,23.5
+Titan,1500,0,150,150,2.6
