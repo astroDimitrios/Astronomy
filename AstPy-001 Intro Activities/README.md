@@ -11,7 +11,7 @@ If something is not working right or you have questions/suggestions about these 
 The Numpy section was adapted from work by Ridwan Barbhuiyan - https://github.com/rbarbhuiyan.      
 Inspiration was taken from the Exoplanet Transit Lab from the Dominion Astrophysical Observatory, Canada here: https://centreoftheuniverse.org/transit-lab, and the work of Adam LaMee's Coding in K12 here: https://adamlamee.github.io/.
 
-Thanks to Mary MacDonald, Planetarium Manager at the Christa McAuliffe [Center for Integrated Science Learning](https://cm-center.org/) for testing these activities and providing feedback.
+Thanks to Mary MacDonald, Planetarium Manager at the Christa McAuliffe [Center for Integrated Science Learning](https://cm-center.org/) for testing activities 1-4 and providing feedback.
 
 # Table of Intro Activities
 
@@ -23,7 +23,7 @@ Intro | Title | Description
 2 | Light Speed | Basic Python skills, list comprehension, functions, dictionaries etc.
 3 | Spreading Out | Basic Python skills, string formatting, function arguments.
 4 | Pandas and Matplotlib | Introduction to using Pandas to read csv's and Matplotlib for plotting.
-5 | Gravity Wells |
+5 | Gravity Wells | Under Construction ...
 6 | The Atmosphere |
 7 | Plotting the Stars | 
 8 | Planetary Escape |

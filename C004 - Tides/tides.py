@@ -41,7 +41,7 @@ class Main:
         Args:
             name -- string, name of the object
             mass -- float, mass of the object in kg
-            radius -- float, distance to the object in m
+            radius -- float, radius of the object in m
             step -- float, angular step to make when calculating surface points - in terms of pi
                  -- used to calculate the angles of each point, each point is +step*np.pi
             scale -- float, scale to divide forces by in kg

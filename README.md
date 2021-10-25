@@ -41,11 +41,11 @@ astronomycenter resources, [https://www.compadre.org/astronomy/index.cfm](https:
 
 ## How to run the code
 
-<p><strong>NEW: </strong>You can now test some of the activities on our JupyterHub. Sign up <a href="https://hub.astropython.com/hub/signup">here</a> with a username and password then head over to <a href="https://hub.astropython.com/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FastroDimitrios%2FLaunch&urlpath=lab%2Ftree%2FLaunch%2FWelcome.ipynb&branch=main">hub.astropython.com</a> and log in! (It's important to use the second link after signing up so you get sent to the Welcome document)
-
-The welcome document has links which pull the activities you want to try from my GitHub. If something doesn't work please let me know! The server is built for my students so it can only handle 20-30 people at a time. If you do test out some of the activities let me know what you think.</p>
+<p><strong>Testing Activites:</strong>If you would like to test any activities online you can email me and I will activate our JupyterHub server for 48 hours. Unfortunately I can no longer keep it running 24/7 due to running costs. When the server is up - Sign up <a href="https://hub.astropython.com/hub/signup">here</a> with a username and password then head over to <a href="https://hub.astropython.com/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FastroDimitrios%2FLaunch&urlpath=lab%2Ftree%2FLaunch%2FWelcome.ipynb&branch=main">hub.astropython.com</a> and log in! (It's important to use the second link after signing up so you get sent to the Welcome document)
 
 **NOTE:** The server may go down periodically. If you want to keep your work please download it to your local computer, do NOT assume it is safe forever on the hub. 
+
+The welcome document has links which pull the activities you want to try from my GitHub. If something doesn't work please let me know! The server is built for my students so it can only handle 20-30 people at a time. If you do test out some of the activities let me know what you think.</p>
 
 **Alternate ways of running notebooks**
 
