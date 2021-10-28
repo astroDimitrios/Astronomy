@@ -1,6 +1,6 @@
 # Solar Images
 
-***local only*** - doesn't work online in JupyterLab due to glymur and SunPy problems which I cannot resolve
+***Note*** - doesn't seem to work on tryJupyter due to glymur and SunPy dependencies. Works well on local environment and custom JupyterHub env!
 
 ## AIM - To access image data on the sun and visualise it in different wavelengths
 
