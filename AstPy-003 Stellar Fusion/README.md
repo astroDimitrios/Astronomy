@@ -16,7 +16,7 @@ Intro to Nuclear Fusion in stars.
 
 **BE.py** creates binding energy plots like the one below.
 
-![AstroWelcome](BE Media/bindingEnergyperNLog.gif)
+![AstroWelcome](https://github.com/astroDimitrios/Astronomy/blob/main/AstPy-003%20Stellar%20Fusion/BE%20Media/bindingEnergyperN.gif)
 
 **CB.py** creates this image of the proton proton Coulomb barrier.
 
