@@ -1,4 +1,7 @@
 """ snippet to create a fading line plot with Matplotlib
+
+Idea and some code taken from the REBOUND package
+https://rebound.readthedocs.io/en/latest/
 """
 
 import numpy as np
@@ -25,6 +28,7 @@ def fade_line(x, y, colour, alpha):
 
     # N-1 segments for N points
     # (x, y) start point and (x2, y2) end point
+    # in 3D array each segment 2D inside
     segments = np.zeros((Npts-1, 2, 2))
     # segment start values - slice of last value
     segments[:, 0, 0] = x[:-1]
@@ -32,6 +36,7 @@ def fade_line(x, y, colour, alpha):
     # segements end values - slice of first value
     segments[:, 1, 0] = x[1:]
     segments[:, 1, 1] = y[1:]
+    print(segments)
 
     lc = LineCollection(segments, color=colours)
     return lc
