@@ -1,6 +1,5 @@
 <p align="center">
-    <!-- ![AstroWelcome](/DesignAssets/Ai/LogoMain@2x.png | width=400) -->
-    <img width="50%" src="https://github.com/astroDimitrios/AstronomyClass/blob/main/DesignAssets/Ai/LogoMain%402x.png">
+    <img width="50%" src="https://raw.githubusercontent.com/astroDimitrios/Astronomy/main/APLogo.png" alt="A&P Logo">
 </p>
 
 # Astronomy and Python Coding Activities

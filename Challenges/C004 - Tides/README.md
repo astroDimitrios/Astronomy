@@ -18,23 +18,23 @@ Possible improvements:
 The **plot_tides.py** code makes this plot and is easily adapted:
 
 <p align="center">
-    <img width="80%" src="https://github.com/astroDimitrios/Astronomy/blob/master/Code/C004%20-%20Tides/Tides_Moon_0.png">
+    <img width="80%" src="https://github.com/astroDimitrios/Astronomy/blob/master/Code/Challenges/C004%20-%20Tides/Tides_Moon_0.png">
 </p>
 
 These are some of the figures I made to help me solve the challenge as well as the whiteboard image in the Working Directory (which has some mistakes in relation to the sign preservation section).
 
 <p align="center">
-    <img width="80%" src="https://github.com/astroDimitrios/Astronomy/blob/master/Code/C004%20-%20Tides/Images/Tides_Diff-100.jpg">
+    <img width="80%" src="https://github.com/astroDimitrios/Astronomy/blob/master/Code/Challenges/C004%20-%20Tides/Images/Tides_Diff-100.jpg">
 </p>
 
 <p align="center">
-    <img width="80%" src="https://github.com/astroDimitrios/Astronomy/blob/master/Code/C004%20-%20Tides/Images/Tides_Simple_Maths-100.jpg">
+    <img width="80%" src="https://github.com/astroDimitrios/Astronomy/blob/master/Code/Challenges/C004%20-%20Tides/Images/Tides_Simple_Maths-100.jpg">
 </p>
 
 <p align="center">
-    <img width="80%" src="https://github.com/astroDimitrios/Astronomy/blob/master/Code/C004%20-%20Tides/Images/Tides_Offset-100.jpg">
+    <img width="80%" src="https://github.com/astroDimitrios/Astronomy/blob/master/Code/Challenges/C004%20-%20Tides/Images/Tides_Offset-100.jpg">
 </p>
 
 <p align="center">
-    <img width="80%" src="https://github.com/astroDimitrios/Astronomy/blob/master/Code/C004%20-%20Tides/Images/Tide_Comp.gif">
+    <img width="80%" src="https://github.com/astroDimitrios/Astronomy/blob/master/Code/Challenges/C004%20-%20Tides/Images/Tide_Comp.gif">
 </p>
