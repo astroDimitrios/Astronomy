@@ -1,5 +1,7 @@
 # Ring Dynamics
 
+**This activity is not maintained or updated and only works on LINUX with the Rebound N-body package**
+
 ## ringDynamics.ipynb
 ## AIM - Visualise the Roche limit, identify resonances, and explain shepherding
 
@@ -23,6 +25,10 @@ Briefly look at shepherd moons!
 ***Articles*** has two articles - the Larson article and the Shane presentation (see the references)  
 
 ***myimages*** contains images that the students create during the activity when visualising the roche limit
+
+#### Update 2022 April
+
+The Articles and Images folders can be found in full [here](https://drive.google.com/drive/folders/150cx9lSqmnedWAdEcWA_QoWtFvIiyIoc?usp=sharing).
 
 ## Challenges:
 

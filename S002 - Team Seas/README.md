@@ -4,6 +4,8 @@
 ## AIM - To analyse plastic discharge by rivers using data from the Ocean Cleanup Project
 Difficulty: Easy
 
+**geo_env.yml** has the environment setup I used to run this activity.
+
 ## Intro
 
 <p>This activity is inspired by the work of the <a href="https://theoceancleanup.com/">Ocean Cleanup Project</a> and #TeamSeas started by YouTubers <a href="https://www.youtube.com/watch?v=cV2gBU6hKfY">MrBeast</a> and <a href="https://www.youtube.com/watch?v=pXDx6DjNLDU">Mark Rober</a>. It uses data from Meijer L. J. J. et al., 2021, <em>Sci. Adv.</em>, More than 1000 rivers account for 80% of global riverine plastic emissions into the ocean, DOI: <a href="10.1126/sciadv.aaz5803">10.1126/sciadv.aaz5803</a> which is provided <a href="https://figshare.com/articles/dataset/Supplementary_data_for_More_than_1000_rivers_account_for_80_of_global_riverine_plsatic_emissions_into_the_ocean_/14515590">here</a> and has been downloaded into the Meijer2021_midpoint_emissions directory for this activity.</p>
@@ -14,12 +16,12 @@ Students create maps of their local area showing river pollution and analyse riv
 
 Rivers in the dataset shown on a continents basemap. 100 most polluting rivers in orange.
 <center>
-    <img width="50%" src="./Figures/river_plastics_WORLD.png" alt='River Plastics World'>
+    <img width="75%" src="./Figures/river_plastics_WORLD.jpg" alt='River Plastics World'>
 </center>
 
 Rivers in the South East UK plotted with a watercolour basemap.
 <center>
-    <img width="50%" src="./Figures/river_plastics_SEUK_ZOOM_watercolour.png" alt='SEUK River Pollution'>
+    <img width="75%" src="./Figures/river_plastics_SEUK_ZOOM_watercolour.jpg" alt='SEUK River Pollution'>
 </center>
 
 ## Sharing

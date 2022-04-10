@@ -1,0 +1,11 @@
+name: sun
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - jupyterlab
+  - ipywidgets
+  - ipympl
+  - sunpy
+prefix: C:\Users\astrodimitrios\Anaconda3\envs\sun

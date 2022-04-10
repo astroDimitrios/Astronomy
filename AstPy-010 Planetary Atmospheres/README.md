@@ -19,7 +19,8 @@ Calculating whether certain gases are retained by the planet or whether they esc
 
 **atmospheres.py** makes all the stacked bar chart compositional plots for the planets.  
 **chemical_dist.py** makes the plots of the abundance of one gas in the atmospheres of all planets.  
-**exobase.py** makes the plot of escape velocity vs temperature.
+**exobase.py** makes the plot of escape velocity vs temperature.      
+All these **.py** files are in the ***figures*** directory.
 
 ## Challenges
 
@@ -28,6 +29,8 @@ Calculating whether certain gases are retained by the planet or whether they esc
 3) Calculate the lightest gas particle which can remain in Mercurys atmosphere.
 
 ## References
+
+Downloaded references are now on my Google Drive [here](https://drive.google.com/drive/folders/1Tw07bSwSy3jiT3fWibMwiLyCP3xbZCgN?usp=sharing) due to their size.
 
 Data from:  
 Rauf KM et al. (2015) Comparing the Atmospheric Compositions of All Planets and Giant Moons in Solar System [https://www.longdom.org/open-access/comparing-the-atmospheric-compositions-of-all-planets-and-giant-moons-in-solar-system-2332-2519-1000136.pdf](https://www.longdom.org/open-access/comparing-the-atmospheric-compositions-of-all-planets-and-giant-moons-in-solar-system-2332-2519-1000136.pdf)  
@@ -55,6 +58,7 @@ Data from Rauf KM et al. (2015) Comparing the Atmospheric Compositions of All Pl
 Contains percentage compositions for different gases in the atmospheres of the planets + Pluto.
 
 ## exobase.csv
+found in the ***figures*** directory
 
 From A. Garcia Munoz et al - Upper Atmospheres and Ionospheres of Planets and Satellites [https://arxiv.org/ftp/arxiv/papers/1712/1712.02994.pdf](https://arxiv.org/ftp/arxiv/papers/1712/1712.02994.pdf)
 
@@ -72,6 +76,7 @@ Note the temperatures for Mercury are average surface temperatures since it has 
 For information on the **planets.csv** which is present here see the ***Data*** or ***AstPy-8 Planets*** directories.
 
 ## earth_chem_crust.csv
+found in the ***figures*** directory
 
 Chemical composition of the crust.
 Taken from: CRC Handbook of Chemistry and Physics, 97th Edition (2016-2017)

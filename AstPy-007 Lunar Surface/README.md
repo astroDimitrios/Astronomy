@@ -1,37 +1,39 @@
 # Lunar Surface
 
 ## lunar.ipynb
-## AIM - To compare our moon image to known data and work out some feature sizes
+## AIM - To compare our Moon image to known data and calculate some feature sizes
 
 **Predict**
 
 Have a think about these questions and make some predictions! Be sure to tell someone else what you predict.
 
-1) Do the near and far sides of the moon look the same?    
-2) What sort of surface features do you think you can find on the moon?    
-3) How do we measure the height of the moon's surface?
+1) Do the near and far sides of the Moon look the same?    
+2) What sort of surface features do you think you can find on the Moon?    
+3) How do we measure the height of the Moons surface?
 
 ## Intro
 
-Annotating your image of the moon based off known data.
+Annotating your image of the Moon based off known data.
 Calculating crater heights and depths by first calculating our telescope/camera setups resolution.
 Comparing your image to Lunar Reconnaissance Orbiter (LRO) and Lunar Orbiter Laser Altimeter (LOLA) data.
 
-**lunar.ipynb** is the main code to do the three things above.
+**lunar.ipynb** is the main code.
 
-**catalan.py** creates the gif of the Catalan crater topography using LOLA data stored in ***RDR_272E273E_46p130529S45SPointPerRow_csv_table***. Images used to make the gif outputted by this python script are in the directory ***catalan***.
+**lunar.yml** is a basic env setup that I used to test the code.
 
 Example output - annotated lunar image
-![AstroWelcome](mymoonAnnotated.png)
+![AstroWelcome](./images/mymoonAnnotated.png)
 
 Example output - crater comparison
-![AstroWelcome](theophilusCraterComparison.png)
+![AstroWelcome](./images/theophilusCraterComparison.png)
 
 LROC/LOLA Digital Elevation Model made using GMT
-![AstroWelcome](Lunar_LROC_WAC_GLD100_ClrShade_79s79n_9216.jpg)
+![AstroWelcome](./figures/Lunar_LROC_WAC_GLD100_ClrShade_79s79n_9216.jpg)
 
 Gif of the catalan crater topography using LOLA data
-![AstroWelcome](catalan.gif)
+![AstroWelcome](catalan/catalan.gif)
+
+**catalan.py** in the ***catalan*** directory creates the gif of the Catalan crater topography using LOLA data stored in ***RDR_272E273E_46p130529S45SPointPerRow_csv_table***. Images used to make the gif outputted by this python script are also in the directory ***catalan***. This data is large so is stored on my drive [here](https://drive.google.com/drive/folders/1kXCnfm2d2YGzs8HBQrQYu388HK6nvkzc?usp=sharing) since it is extra data which the acitivity doesn't require to run.
 
 ## Challenge
 
@@ -74,4 +76,4 @@ Lunar Orbiter Laser Altimeter, https://lola.gsfc.nasa.gov/
 
 Thanks to [Dr. John Keller](https://science.gsfc.nasa.gov/sed/bio/john.w.keller) for his guidance towards the GMT tool and processing of LOLA .IMG data files.
 
-Thanks also to Brandon Rhodes author of the [SkyField](https://rhodesmill.org/skyfield/) package for advice on calculating sub-Earth and sub-Solar points on the moon.
+Thanks also to Brandon Rhodes author of the [SkyField](https://rhodesmill.org/skyfield/) package for advice on calculating sub-Earth and sub-Solar points on the Moon.

@@ -1,6 +1,6 @@
 # Solar Images
 
-***Note*** - doesn't seem to work on tryJupyter due to glymur and SunPy dependencies. Works well on local environment and custom JupyterHub env!
+***Note*** - might not work on tryJupyter since it requires the SunPy module. Works well on a local environment built for SunPy or with a custom JupyterHub env! - use the ***sun.yml*** file for an example conda environment.
 
 ## AIM - To access image data on the sun and visualise it in different wavelengths
 
@@ -17,6 +17,8 @@ Have a think about these questions and make some predictions! Be sure to tell so
 Getting data from SDO and SOHO using the SunPy module.
 
 **solarImages.py** creates all the images.
+
+**sun.yml** is a basic env setup that I used to test the code.
 
 The lasco data is separate because it's not in the standard FITS format.
 

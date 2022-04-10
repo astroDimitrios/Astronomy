@@ -1,0 +1,11 @@
+name: lunar
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - jupyterlab
+  - ipywidgets
+  - ipympl
+  - skyfield
+prefix: C:\Users\astrodimitrios\Anaconda3\envs\lunar

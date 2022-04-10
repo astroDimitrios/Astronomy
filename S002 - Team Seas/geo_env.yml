@@ -1,0 +1,17 @@
+name: geo_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3
+  - geopandas
+  - ipykernel
+  - jupyterlab
+  - proj
+  - proj-data
+  - cartopy
+  - ipympl
+  - nodejs
+  - contextily
+  - adjusttext
+prefix: C:\Users\polyq\Anaconda3\envs\geo_env

@@ -38,12 +38,13 @@ Data about the planets taken from: David R. Williams - NASA Planetary Factsheet 
 It also includes data on the Galilean Moons, and Charon from: Cynthia Phillips - Solar System Parameters [https://www.noao.edu/jagi/sepo/education/plansat/table.html](https://www.noao.edu/jagi/sepo/education/plansat/table.html).
 
 ## exoplanets.csv and exoplanets_microlensing.csv
+These are in the ***exoplanets*** directory
 
 Kepler data from the NASA exoplanet archive see here: NASA Exoplanet archive, IPAC/Caltech [here - https://exoplanetarchive.ipac.caltech.edu/docs/program_interfaces.html](https://exoplanetarchive.ipac.caltech.edu/docs/program_interfaces.html).
 
 # Outputs
 
-Made by **planets.py**
+Made by **planets.py** found in the ***planets*** directory
 ![AstroWelcome](radius_vs_distance_planets.png)
 
 Made by **planets.py**
@@ -55,8 +56,8 @@ Made by **planets.py**
 Made by **planets.py**
 ![AstroWelcome](density_vs_radius_planets.png)
 
-Made by **exoplanets.py**
+Made by **exoplanets.py** found in the in the ***exoplanets*** directory
 ![AstroWelcome](radius_vs_distance_exoplanets.png)
 
-Made by **exoplanets_microlensing.py**
+Made by **exoplanets_microlensing.py** found in the ***exoplanets*** directory
 ![AstroWelcome](mass_vs_distance_exoplanets.png)
