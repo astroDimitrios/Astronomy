@@ -117,7 +117,10 @@ def gen_plots(planet_name, layer_type):
     # Generic position and size arguments for text
     y_name = 0.65 # title
     x_name = 0.51 # title
+    # y_name = 1.62 # title - dpi 500
+    # x_name = 1.275 # title - dpi 500
     adjust = 0.02 # under-title
+    # adjust = 0.05 # under-title - dpi 500
     layerTextSize = 6 # under-title
     noLayerText = ['venus', 'jupiter', 'saturn', 'uranus', 'neptune']
     # legend positions
@@ -249,6 +252,9 @@ def gen_plots(planet_name, layer_type):
 
 # for planet in ['earth', 'mars', 'mercury', 'moon']:
 #     gen_plots(planet, 'mechanical')
+
+for planet in ['mars']:
+    gen_plots(planet, 'mechanical')
 
 def compare_four(name, layer_type='compositional'):
     '''
@@ -474,4 +480,4 @@ def comp_vs_mechan(planet_name):
 # comp_vs_mechan('earth')
 # comp_vs_mechan('mars')
 # comp_vs_mechan('moon')
-comp_vs_mechan('mercury')
+# comp_vs_mechan('mercury')
